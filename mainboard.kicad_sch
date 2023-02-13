@@ -8407,7 +8407,7 @@
   (symbol (lib_id "power:GND") (at 107.95 375.92 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 460d19fc-8f0d-4c7f-a447-640b5ccef2b4)
-    (property "Reference" "#PWR?" (id 0) (at 107.95 382.27 0)
+    (property "Reference" "#PWR0164" (id 0) (at 107.95 382.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 110.49 377.1899 0)
@@ -8639,7 +8639,7 @@
   (symbol (lib_id "power:+12V") (at 231.14 350.52 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 55146b39-6ab9-4e22-9aa8-09081eb48637)
-    (property "Reference" "#PWR?" (id 0) (at 231.14 354.33 0)
+    (property "Reference" "#PWR0175" (id 0) (at 231.14 354.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (id 1) (at 231.14 345.44 0))
@@ -10045,7 +10045,7 @@
   (symbol (lib_id "Connector:Conn_01x08_Female") (at 134.62 346.71 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a0693259-9f15-4a21-9a7b-4b9bb369bb44)
-    (property "Reference" "J?" (id 0) (at 130.81 359.41 0)
+    (property "Reference" "J5" (id 0) (at 130.81 359.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x08_Female" (id 1) (at 123.19 361.95 0)
@@ -10167,7 +10167,7 @@
   (symbol (lib_id "power:GND") (at 107.95 339.09 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a5854e18-ab59-44a0-ae1e-288c2d3f05b6)
-    (property "Reference" "#PWR?" (id 0) (at 107.95 345.44 0)
+    (property "Reference" "#PWR0173" (id 0) (at 107.95 345.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 110.49 340.3599 0)
@@ -10302,7 +10302,7 @@
   (symbol (lib_id "Connector:Conn_01x08_Female") (at 134.62 383.54 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid acae29ba-95ae-4d45-b2fb-4801275d31b9)
-    (property "Reference" "J?" (id 0) (at 130.81 396.24 0)
+    (property "Reference" "J6" (id 0) (at 130.81 396.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x08_Female" (id 1) (at 123.19 398.78 0)
@@ -11254,7 +11254,7 @@
   (symbol (lib_id "power:GND") (at 107.95 393.7 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ea73d796-d7c2-4d47-b938-e4de62beb502)
-    (property "Reference" "#PWR?" (id 0) (at 107.95 400.05 0)
+    (property "Reference" "#PWR0170" (id 0) (at 107.95 400.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 110.49 394.9699 0)
@@ -11390,7 +11390,7 @@
   (symbol (lib_id "power:+12V") (at 231.14 283.21 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ed89bf69-4da5-46dd-9523-ae4818188ec6)
-    (property "Reference" "#PWR?" (id 0) (at 231.14 287.02 0)
+    (property "Reference" "#PWR0174" (id 0) (at 231.14 287.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (id 1) (at 231.14 278.13 0))
@@ -12090,6 +12090,9 @@
     (path "/bee752b7-42cf-4a90-b933-100ec06fe5d2"
       (reference "#PWR0163") (unit 1) (value "GND") (footprint "")
     )
+    (path "/460d19fc-8f0d-4c7f-a447-640b5ccef2b4"
+      (reference "#PWR0164") (unit 1) (value "GND") (footprint "")
+    )
     (path "/f61379ff-1584-4ff6-a7d4-2bbbcd60d48f"
       (reference "#PWR0165") (unit 1) (value "GND") (footprint "")
     )
@@ -12105,26 +12108,23 @@
     (path "/ca575cd9-d7e6-4e82-affa-3d3cc9539c51"
       (reference "#PWR0169") (unit 1) (value "GND") (footprint "")
     )
+    (path "/ea73d796-d7c2-4d47-b938-e4de62beb502"
+      (reference "#PWR0170") (unit 1) (value "GND") (footprint "")
+    )
     (path "/cae6f12b-d2d6-4ac6-9cfe-f45364703714"
       (reference "#PWR0171") (unit 1) (value "GND") (footprint "")
     )
     (path "/93522248-e866-4237-a245-2a313ccd6da3"
       (reference "#PWR0172") (unit 1) (value "GND") (footprint "")
     )
-    (path "/460d19fc-8f0d-4c7f-a447-640b5ccef2b4"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/55146b39-6ab9-4e22-9aa8-09081eb48637"
-      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
-    )
     (path "/a5854e18-ab59-44a0-ae1e-288c2d3f05b6"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ea73d796-d7c2-4d47-b938-e4de62beb502"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0173") (unit 1) (value "GND") (footprint "")
     )
     (path "/ed89bf69-4da5-46dd-9523-ae4818188ec6"
-      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
+      (reference "#PWR0174") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/55146b39-6ab9-4e22-9aa8-09081eb48637"
+      (reference "#PWR0175") (unit 1) (value "+12V") (footprint "")
     )
     (path "/b1e45d3b-898b-4532-be14-7b5749c259b6"
       (reference "A1") (unit 1) (value "Arduino_Nano_v2") (footprint "Module:Arduino_Nano")
@@ -12361,10 +12361,10 @@
       (reference "J4") (unit 1) (value "AVR-TPI-6") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
     )
     (path "/a0693259-9f15-4a21-9a7b-4b9bb369bb44"
-      (reference "J?") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+      (reference "J5") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/acae29ba-95ae-4d45-b2fb-4801275d31b9"
-      (reference "J?") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+      (reference "J6") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/a5a63dc1-425a-4281-b3c7-392f61b35561"
       (reference "JP1") (unit 1) (value " ") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
