@@ -20,6 +20,11 @@
   (fp_line (start -3.9 -3.6) (end 3.9 -3.6) (layer "F.SilkS") (width 0.12) (tstamp 98b2d45a-b3e5-4ffe-be23-66615b1b50cf))
   (fp_line (start 3.9 2) (end 3.9 3.6) (layer "F.SilkS") (width 0.12) (tstamp a4f9170f-5c72-4f51-9f0e-a09b33e7aba2))
   (fp_line (start -3.9 -3.6) (end -3.9 -2) (layer "F.SilkS") (width 0.12) (tstamp da3109eb-f8e0-4d54-8479-f2147dff5875))
-  (pad "1" smd roundrect (at -3.3 0) (size 1.8 3.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e0451e66-d567-4e0d-a191-7b46e3d85ee5))
-  (pad "2" smd roundrect (at 3.3 0) (size 1.8 3.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 6a9f9c57-84e1-426a-bc89-a2c7aecf2842))
+  (pad "1" smd roundrect (at -3.4 0) (size 2 3.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e0451e66-d567-4e0d-a191-7b46e3d85ee5))
+  (pad "2" smd roundrect (at 3.4 0) (size 2 3.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 6a9f9c57-84e1-426a-bc89-a2c7aecf2842))
+  (model "${KIPRJMOD}/3dmodels/IND-JSHC0650-5R6M v3.step"
+    (offset (xyz -0.1 0.3 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
