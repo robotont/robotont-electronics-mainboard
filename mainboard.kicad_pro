@@ -451,6 +451,10 @@
     [
       "4bfc1dae-8815-428b-9f5b-0a18ce8bea6c",
       "Power Management"
+    ],
+    [
+      "bf9c2daa-0db5-447f-b38e-6186da69c88b",
+      "DC-DC 12V for Motors"
     ]
   ],
   "text_variables": {}
