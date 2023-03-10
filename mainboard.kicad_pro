@@ -455,6 +455,14 @@
     [
       "bf9c2daa-0db5-447f-b38e-6186da69c88b",
       "DC-DC 12V for Motors"
+    ],
+    [
+      "365953d5-b495-4eb5-9ee7-2e9c75a79786",
+      "DC-DC for EXT"
+    ],
+    [
+      "2919e8ae-0cfc-458d-8a36-78c332e4eb80",
+      "External devices"
     ]
   ],
   "text_variables": {}
