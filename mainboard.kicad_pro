@@ -431,6 +431,26 @@
     [
       "ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
       ""
+    ],
+    [
+      "f869ca41-fc08-4924-bbcf-665f5c3257c4",
+      "Motor driver 0"
+    ],
+    [
+      "62c29e29-5f8c-4ded-9b81-64b0db2a6118",
+      "Motor driver 1"
+    ],
+    [
+      "b864e861-9790-467d-93b8-0336b3813f8d",
+      "Motor driver 2"
+    ],
+    [
+      "0aa7d73b-c94b-4174-b2b5-f48fab7b2d2e",
+      "Power Path Control"
+    ],
+    [
+      "4bfc1dae-8815-428b-9f5b-0a18ce8bea6c",
+      "Power Management"
     ]
   ],
   "text_variables": {}
