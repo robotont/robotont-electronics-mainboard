@@ -463,6 +463,10 @@
     [
       "2919e8ae-0cfc-458d-8a36-78c332e4eb80",
       "External devices"
+    ],
+    [
+      "dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27",
+      "LEDs "
     ]
   ],
   "text_variables": {}
