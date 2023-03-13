@@ -6655,11 +6655,11 @@
     (path "/2919e8ae-0cfc-458d-8a36-78c332e4eb80/bb2ac8eb-b95d-4f56-b928-498a2876b2fe"
       (reference "D6") (unit 1) (value "PMEG4050EP") (footprint "Diode_SMD:D_SOD-128")
     )
-    (path "/365953d5-b495-4eb5-9ee7-2e9c75a79786/968ab3a1-c26f-4fff-81b5-cd0ccc728401"
-      (reference "F1") (unit 1) (value "Polyfuse  - RUEF300") (footprint "Robotont:FUSE-RUEF300")
+    (path "/365953d5-b495-4eb5-9ee7-2e9c75a79786/96c9e6a9-1cdb-4105-a60f-1775edc3b763"
+      (reference "F1") (unit 1) (value "BSMD1206-300-6V ") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
-    (path "/365953d5-b495-4eb5-9ee7-2e9c75a79786/a6be1475-76d3-4cb9-80fa-c759a29ce479"
-      (reference "F2") (unit 1) (value "Polyfuse  - RUEF300") (footprint "Robotont:FUSE-RUEF300")
+    (path "/365953d5-b495-4eb5-9ee7-2e9c75a79786/0a09c901-fc51-4407-9ffc-b1d041fb57fc"
+      (reference "F2") (unit 1) (value "BSMD1206-300-6V ") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/5e8076ab-4279-430a-a7e1-b2ae31232c87"
       (reference "FB1") (unit 1) (value "120R") (footprint "")
