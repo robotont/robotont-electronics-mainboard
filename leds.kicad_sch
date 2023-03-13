@@ -295,7 +295,6 @@
     )
   )
 
-
   (junction (at 109.22 76.835) (diameter 0) (color 0 0 0 0)
     (uuid 2efd6db7-dff6-4959-a74d-86d1855f7ccd)
   )
@@ -397,7 +396,7 @@
   (symbol (lib_id "Isolator:ADuM1201AR") (at 157.734 91.567 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 15ac96f3-db7e-49a7-921c-8d09b44d9a5e)
-    (property "Reference" "U?" (id 0) (at 157.734 78.613 0))
+    (property "Reference" "U17" (id 0) (at 157.734 78.613 0))
     (property "Value" "ADUM1201ARZ-RL7" (id 1) (at 157.734 81.153 0))
     (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 157.734 101.727 0)
       (effects (font (size 1.27 1.27) italic) hide)
@@ -421,7 +420,7 @@
   (symbol (lib_id "Symbols:WS2812B-Mini") (at 120.904 94.107 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 49ff6108-55f8-4c48-b7a6-23b0782a5af4)
-    (property "Reference" "U?" (id 0) (at 120.904 82.931 0))
+    (property "Reference" "U16" (id 0) (at 120.904 82.931 0))
     (property "Value" "WS2812B-Mini" (id 1) (at 120.904 85.471 0))
     (property "Footprint" "" (id 2) (at 120.904 94.107 0)
       (effects (font (size 1.27 1.27)) hide)
