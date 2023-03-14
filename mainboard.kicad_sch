@@ -6934,7 +6934,7 @@
       (reference "L5") (unit 1) (value "5.6uH") (footprint "Robotont:IND-JSHC0650-5R6M")
     )
     (path "/0aa7d73b-c94b-4174-b2b5-f48fab7b2d2e/aef7d871-ed55-4e4f-add1-319c631ddd99"
-      (reference "Q1") (unit 1) (value "SI7149ADP-T1-GE3") (footprint "Komponendid:POWERPAKSO-8")
+      (reference "Q1") (unit 1) (value "SI7149ADP-T1-GE3") (footprint "Robotont:POWERPAKSO-8")
     )
     (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/b6e140ff-abd4-4c57-8e17-6d2154fc82df"
       (reference "Q2") (unit 1) (value "2N7002-7-F") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -7093,7 +7093,7 @@
       (reference "U8") (unit 1) (value "MC33926PNBR2") (footprint "Robotont:QFN80P800X800X220-33N")
     )
     (path "/0aa7d73b-c94b-4174-b2b5-f48fab7b2d2e/4e84443f-3248-4f4a-8cc1-6b839a96056c"
-      (reference "U9") (unit 1) (value "LTC4412ES6") (footprint "Komponendid:TSOT-23_S6")
+      (reference "U9") (unit 1) (value "LTC4412ES6") (footprint "Robotont:TSOT-23_S6")
     )
     (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/6ca54bf8-25cf-4b55-aeef-b66cdf142f07"
       (reference "U10") (unit 1) (value "ATtiny44A-SS") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
