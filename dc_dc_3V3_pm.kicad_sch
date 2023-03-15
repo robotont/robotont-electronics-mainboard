@@ -384,9 +384,10 @@
     (uuid f944aea7-7f49-4d7e-bd67-6350c067147f)
   )
 
-  (text "TODO: check that\nEN tolerates 24V!" (at 104.14 102.235 0)
+  (text "Operational current max 1mA\nTODO: look for more efficient solution"
+    (at 109.22 74.93 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid cef022a4-3255-45cc-b6b7-7ff7e2d22630)
+    (uuid 9fc3272d-4603-4a80-ae51-eac600782496)
   )
   (text "DC-DC +3.3V converter" (at 104.394 110.49 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
