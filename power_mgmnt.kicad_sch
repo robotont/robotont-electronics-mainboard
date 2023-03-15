@@ -1109,7 +1109,7 @@
     )
   )
 
-  (hierarchical_label "3V3+" (shape input) (at 38.1 66.04 180)
+  (hierarchical_label "+3.3V" (shape input) (at 38.1 66.04 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5b326312-733f-4e26-87d8-5d2cf3ab2804)
   )

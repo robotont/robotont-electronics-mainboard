@@ -476,6 +476,10 @@
     [
       "dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27",
       "Addressable LEDs around the PCB"
+    ],
+    [
+      "f96a7951-71ec-4563-89d5-222e7f52e718",
+      "Dc-DC 3V3 for Power Management"
     ]
   ],
   "text_variables": {}
