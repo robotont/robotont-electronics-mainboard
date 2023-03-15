@@ -393,7 +393,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "mainboard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -467,7 +467,7 @@
     ],
     [
       "365953d5-b495-4eb5-9ee7-2e9c75a79786",
-      "DC-DC for EXT"
+      "DC-DC for EXT, MCU, and LEDs"
     ],
     [
       "2919e8ae-0cfc-458d-8a36-78c332e4eb80",
@@ -479,7 +479,7 @@
     ],
     [
       "f96a7951-71ec-4563-89d5-222e7f52e718",
-      "Dc-DC 3V3 for Power Management"
+      "DC-DC 3V3 for Power Management"
     ]
   ],
   "text_variables": {}
