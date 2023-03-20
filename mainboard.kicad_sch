@@ -3318,7 +3318,6 @@
     )
   )
 
-
   (junction (at 141.605 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 046c5a95-e60e-40eb-aa7a-203624e5aa4d)
   )
@@ -5529,10 +5528,10 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 27.432 170.18 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100KT5E_C22936.pdf" (id 3) (at 29.21 170.18 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" (id 3) (at 29.21 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C22936" (id 4) (at 29.21 170.18 90)
+    (property "LCSC" "C25804" (id 4) (at 29.21 170.18 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 61ddaae7-ad5a-438a-845a-408fe8ef10e9))
@@ -5551,7 +5550,10 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 58.1152 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 57.15 92.71 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810261513_Samsung-Electro-Mechanics-CL10C100JB8NNNC_C1634.pdf" (id 3) (at 57.15 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C1634" (id 4) (at 57.15 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a3953869-7704-45f1-b872-cb7d1954d6ea))
@@ -5607,10 +5609,10 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 59.182 197.485 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100KT5E_C22936.pdf" (id 3) (at 60.96 197.485 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" (id 3) (at 60.96 197.485 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C22936" (id 4) (at 60.96 197.485 90)
+    (property "LCSC" "C25804" (id 4) (at 60.96 197.485 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9dfa0fbf-301c-429e-bed4-bc9f6ad667cb))
@@ -5629,7 +5631,10 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 73.3552 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 72.39 92.71 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810261513_Samsung-Electro-Mechanics-CL10C100JB8NNNC_C1634.pdf" (id 3) (at 72.39 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C1634" (id 4) (at 72.39 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fdde0122-71ca-48d7-85f3-5d7ac713c3fd))
@@ -5644,10 +5649,10 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 57.15 203.073 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100KT5E_C22936.pdf" (id 3) (at 57.15 201.295 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" (id 3) (at 57.15 201.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C22936" (id 4) (at 57.15 201.295 90)
+    (property "LCSC" "C25804" (id 4) (at 57.15 201.295 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3268f640-b940-420b-8767-9ad47e1d4ecf))
@@ -5662,10 +5667,10 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 71.755 51.308 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100KT5E_C22936.pdf" (id 3) (at 71.755 49.53 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" (id 3) (at 71.755 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C22936" (id 4) (at 71.755 49.53 90)
+    (property "LCSC" "C25804" (id 4) (at 71.755 49.53 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3fdd3b86-4802-4d65-a68f-da46fd78e158))
@@ -5793,7 +5798,10 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" (id 3) (at 83.185 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LSCS" "C72043" (id 4) (at 83.185 120.65 0)
+    (property "LSCS" "" (id 4) (at 83.185 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C72043" (id 5) (at 83.185 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ee96176f-93d6-4e7d-b0d3-4e225e102c31))
@@ -5898,7 +5906,10 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 78.105 84.328 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 78.105 82.55 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF470JT5E_C23182.pdf" (id 3) (at 78.105 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C23182" (id 4) (at 78.105 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 75d29cfb-b55e-4e93-945b-fa44e7445601))
@@ -6212,10 +6223,10 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 57.15 164.592 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100KT5E_C22936.pdf" (id 3) (at 57.15 166.37 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" (id 3) (at 57.15 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C22936" (id 4) (at 57.15 166.37 90)
+    (property "LCSC" "C25804" (id 4) (at 57.15 166.37 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 91c07145-422c-443e-ae2c-c2b354aba02a))
@@ -6462,10 +6473,10 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 59.182 170.18 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100KT5E_C22936.pdf" (id 3) (at 60.96 170.18 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" (id 3) (at 60.96 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C22936" (id 4) (at 60.96 170.18 90)
+    (property "LCSC" "C25804" (id 4) (at 60.96 170.18 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6ed1ab0d-29b2-4da1-8d9f-9503c55cdb96))
@@ -6531,10 +6542,10 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 25.4 164.592 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100KT5E_C22936.pdf" (id 3) (at 25.4 166.37 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" (id 3) (at 25.4 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C22936" (id 4) (at 25.4 166.37 90)
+    (property "LCSC" "C25804" (id 4) (at 25.4 166.37 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7f2cf654-34ab-4ee4-a9a9-b1500ff7c0d0))
@@ -6562,13 +6573,13 @@
     (uuid cd898265-e2c5-4236-b2e2-e25e5706a128)
     (property "Reference" "C12" (id 0) (at 88.265 43.18 90))
     (property "Value" "100nF" (id 1) (at 89.535 45.72 90))
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 81.28 45.4152 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 81.28 45.4152 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf" (id 3) (at 85.09 44.45 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf" (id 3) (at 85.09 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C14663" (id 4) (at 85.09 44.45 0)
+    (property "LCSC" "C307331" (id 4) (at 85.09 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0765418e-4532-4a7e-80fd-f56122baee59))
@@ -6590,7 +6601,10 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2009111434_Shenzhen-Kinghelm-Elec-KH-TYPE-C-16P_C709357.pdf" (id 3) (at 261.62 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LSCS" "C709357" (id 4) (at 265.43 74.93 0)
+    (property "LSCS" "" (id 4) (at 265.43 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C709357" (id 5) (at 265.43 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "A1" (uuid a5034642-abcd-4c8e-bcb5-828b8b624209))
@@ -7704,7 +7718,7 @@
       (reference "A1") (unit 1) (value "Arduino_Nano_v2") (footprint "Module:Arduino_Nano")
     )
     (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/2d07ec9e-c5e2-437a-888f-1a6380ee3750"
-      (reference "BZ1") (unit 1) (value "Buzzer") (footprint "")
+      (reference "BZ1") (unit 1) (value "Buzzer") (footprint "Buzzer_Beeper:MagneticBuzzer_PUI_AT-0927-TT-6-R")
     )
     (path "/3e8da05f-4ff2-4ab0-94d9-aeac6b903bc0"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
@@ -7740,7 +7754,7 @@
       (reference "C11") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/cd898265-e2c5-4236-b2e2-e25e5706a128"
-      (reference "C12") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C12") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/5f9b9a38-349c-45c7-a4f4-b2b59f2fef7e"
       (reference "C13") (unit 1) (value "2uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -7920,184 +7934,184 @@
       (reference "D3") (unit 1) (value "PMEG4050EP") (footprint "Diode_SMD:D_SOD-128")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/78a63141-62be-4639-a1a6-0e20ab74e973"
-      (reference "D4") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D4") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/2860df82-87d4-4024-85bd-ce67f007eadf"
-      (reference "D5") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D5") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/3d40da24-e002-40fd-be4a-993d56520896"
-      (reference "D6") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D6") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/6b37f148-c22a-4654-ac30-63576b096b3c"
-      (reference "D7") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D7") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/bb06a79c-125d-40d7-b7a0-ae62b3d73fd8"
-      (reference "D8") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D8") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/049b4bed-954a-4038-9bbf-d5124f28e4ba"
-      (reference "D9") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D9") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/d1a66790-3a12-403d-bb4b-18a002c547c4"
-      (reference "D10") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D10") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/b3cd614e-dc3d-4ccb-8815-13f7e902599d"
-      (reference "D11") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D11") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/079b8905-1f61-48fc-9e5c-37780862187e"
-      (reference "D12") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D12") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/bb26a2b0-2972-436b-9a89-be6e0cd96d71"
-      (reference "D13") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D13") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/415c1c01-17df-4c6b-b9dd-dfd47c7a44ac"
-      (reference "D14") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D14") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/3becdde5-c685-4874-8969-70890e9c3706"
-      (reference "D15") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D15") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/f4ce7c35-7fba-4324-906c-f065277e9b09"
-      (reference "D16") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D16") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/25618f4b-ff21-4312-b79d-33b12ba2014d"
-      (reference "D17") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D17") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/234799b9-84b9-4f53-8c52-b263e5b180bb"
-      (reference "D18") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D18") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/43afa999-0413-4ca2-a49a-e84b73eb63ee"
-      (reference "D19") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D19") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/c0dabac6-5122-4447-af7e-9b8c50c5b626"
-      (reference "D20") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D20") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/5721d1ab-d18a-42ea-861c-7c0523de1f43"
-      (reference "D21") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D21") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/c862c4e8-3508-42c3-a6cd-dd366b340ea7"
-      (reference "D22") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D22") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/5f949bab-3c13-4974-a171-5157c18724aa"
-      (reference "D23") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D23") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/e1dd6a1d-3668-4107-b0db-410bada715b5"
-      (reference "D24") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D24") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/89a9a6df-884a-4368-89d8-c2f63a1b95c9"
-      (reference "D25") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D25") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/86b90cc1-9b28-4bd8-9111-35cb7028fbdb"
-      (reference "D26") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D26") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/a24c1766-d5ce-4a3c-aa26-5bc83011e6c5"
-      (reference "D27") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D27") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/bcd8fbb7-fa2f-4173-8152-e1aa2dbf7b4a"
-      (reference "D28") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D28") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/5fdb55fd-2b4b-4a96-b94c-c2cc1ddd1976"
-      (reference "D29") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D29") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/74cdc545-0f7b-4935-81f6-27b7c707fdd7"
-      (reference "D30") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D30") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/895cedba-a5df-490e-9ba7-a2456a9c6264"
-      (reference "D31") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D31") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/9adf1c3e-5429-4c61-b0b5-d0f3e40fa865"
-      (reference "D32") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D32") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/971d3f81-05ab-4b2a-9184-11eb47beff19"
-      (reference "D33") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D33") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/af1a20fd-635c-4827-ab1a-582fb0b71032"
-      (reference "D34") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D34") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/74ef27d0-8326-41cc-b7e9-4feb7f97ed37"
-      (reference "D35") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D35") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/0ef5fb6c-5ee6-4351-9a92-b313ee7faaa1"
-      (reference "D36") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D36") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/df0905d9-3819-40d8-b5fa-739508531cac"
-      (reference "D37") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D37") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/1abacfe5-1a71-482c-93b2-4b0034e7a1c7"
-      (reference "D38") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D38") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/a6a6a08e-e23d-4508-8331-456b2927d2fa"
-      (reference "D39") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D39") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/4326522e-d09e-4cde-bf03-30e0577b1699"
-      (reference "D40") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D40") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/cbea30b9-6dc9-4529-a26a-d3107fe91424"
-      (reference "D41") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D41") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/8e07176e-7e55-48b4-9537-d8cfd6bbca5e"
-      (reference "D42") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D42") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/8de2051e-c092-424e-b36c-7ae2d2a2604b"
-      (reference "D43") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D43") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/5a3cfc30-505a-4c83-b0b5-83c4ba3ea203"
-      (reference "D44") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D44") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/f39024b9-2c11-46b2-a2b2-70c9e0329169"
-      (reference "D45") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D45") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/7dc38cd2-aadd-4949-992e-4014dd15a532"
-      (reference "D46") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D46") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/d4040189-b77d-4275-a674-dd58164df81d"
-      (reference "D47") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D47") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/b7c95d01-4e19-4138-a0fa-2390d2cee297"
-      (reference "D48") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D48") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/754e65b1-af24-422a-9000-d51a22ec1bdd"
-      (reference "D49") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D49") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/b092d957-838e-47ab-acc4-0afbc1ca753c"
-      (reference "D50") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D50") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/e1ca07ba-7a63-4f8b-8f9f-4c8c44c67c8c"
-      (reference "D51") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D51") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/55a4c39f-ce7a-4540-86fa-6ef13b7594ec"
-      (reference "D52") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D52") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/fea3f522-bbcd-4cac-ac3b-3d1263899080"
-      (reference "D53") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D53") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/e4f7385a-c39a-4b77-96bc-74e74093bc51"
-      (reference "D54") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D54") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/7a0701a2-df36-461f-96f0-6b54fedea26a"
-      (reference "D55") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D55") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/455ec445-a87e-477d-8f5b-f30a436e3e2d"
-      (reference "D56") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D56") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/484c1d91-111e-4059-834e-55fc576c155b"
-      (reference "D57") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D57") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/b28709ab-f5d9-43a3-9a68-8e94386eb49d"
-      (reference "D58") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D58") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/3f53e3b8-fa80-44f5-bb9b-3ed8b7eb5939"
-      (reference "D59") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D59") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/52ab6155-c4f8-440f-ad70-a711f305b754"
-      (reference "D60") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D60") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/0f6cbb0e-db1d-4fec-bdbb-929d7edb118e"
-      (reference "D61") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D61") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/9a6ad502-eb75-4730-ba90-e3321a14ec2e"
-      (reference "D62") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D62") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/7c5a6034-8188-4c75-8c26-a94d2041c7d0"
-      (reference "D63") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D63") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
     (path "/365953d5-b495-4eb5-9ee7-2e9c75a79786/96c9e6a9-1cdb-4105-a60f-1775edc3b763"
       (reference "F1") (unit 1) (value "BSMD1206-300-6V ") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
@@ -8267,6 +8281,9 @@
     (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/b1f1d3d1-c0f8-4d21-859c-0def163451a0"
       (reference "R22") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/59375fef-c1a3-4918-92ae-0762a390255d"
+      (reference "R23") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/b13bdd9d-3db5-4e60-aeba-90edf6bfbd59"
       (reference "R24") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -8278,6 +8295,9 @@
     )
     (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/7ca1f07f-b2f0-45bc-82e0-073b83716cf8"
       (reference "R27") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/cc069fbc-e361-4f7a-8e9e-cf815accd6e2"
+      (reference "R28") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/970dbcf8-ee0d-451e-be88-7fc0e6ecbc8c"
       (reference "R29") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -8291,8 +8311,11 @@
     (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/cc93d968-7ca4-4b20-a91e-af7b0dacee47"
       (reference "R32") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/b3c5ef94-b9a2-48e4-9d8e-6cbd62cee779"
+      (reference "R33") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/be71d395-a0ec-4b1c-87db-1ed56b03a4d7"
-      (reference "R34") (unit 1) (value "100k") (footprint "")
+      (reference "R34") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/3955d1e5-893c-4cfd-a661-0488666fa6c8"
       (reference "R35") (unit 1) (value "220R") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -8344,15 +8367,6 @@
     )
     (path "/f96a7951-71ec-4563-89d5-222e7f52e718/01f526f2-a9ec-42c6-996e-3c727c0e09ad"
       (reference "R51") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/59375fef-c1a3-4918-92ae-0762a390255d"
-      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/b3c5ef94-b9a2-48e4-9d8e-6cbd62cee779"
-      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/cc069fbc-e361-4f7a-8e9e-cf815accd6e2"
-      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/734d9450-13cb-486d-bb1e-d318feb59aee"
       (reference "SW1") (unit 1) (value "RotaryEncoder_Switch") (footprint "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm")

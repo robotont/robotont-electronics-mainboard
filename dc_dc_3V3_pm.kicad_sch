@@ -318,7 +318,6 @@
     )
   )
 
-
   (junction (at 184.15 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 0aa39680-6ba8-43f8-a45b-8f92ee41c603)
   )
@@ -463,7 +462,10 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 137.16 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 137.16 100.33 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" (id 3) (at 137.16 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C25804" (id 4) (at 137.16 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6da40dcd-a00f-4a34-a016-3ec2f2ed10fe))

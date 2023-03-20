@@ -748,7 +748,6 @@
     )
   )
 
-
   (junction (at 178.435 91.44) (diameter 0) (color 0 0 0 0)
     (uuid 19516d65-fb21-4061-b3a4-b29c7dca81de)
   )
@@ -1166,6 +1165,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810101813_YAGEO-CC0805KRX7R9BB104_C49678.pdf" (id 3) (at 60.325 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C49678" (id 4) (at 60.325 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 721a8c0d-9725-4117-9922-2e2c21d0b6fe))
