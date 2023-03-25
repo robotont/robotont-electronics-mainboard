@@ -431,7 +431,7 @@
     (uuid f944aea7-7f49-4d7e-bd67-6350c067147f)
   )
 
-  (text "Operational current max 1mA\nTODO: look for more efficient solution"
+  (text "Operational current max 200mA\nTODO: look for more efficient solution"
     (at 109.22 74.93 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9fc3272d-4603-4a80-ae51-eac600782496)
