@@ -233,4 +233,14 @@
   (pad "P14" thru_hole circle (at -11.890476 10.395 180) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask) (tstamp 36196c8c-afa3-47a4-856c-001747c29428))
   (pad "P15" thru_hole circle (at -11.890476 12.935 180) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask) (tstamp ddf12913-fa67-4a34-9b41-4c337cc807cf))
   (pad "P16" thru_hole rect (at -11.890476 15.475 180) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask) (tstamp 2a887919-3476-4d1f-a72d-f8ba241dd48b))
+  (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+    (offset (xyz -11.9 2.3 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+    (offset (xyz 10.9 2.3 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
