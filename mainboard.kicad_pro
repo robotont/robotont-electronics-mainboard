@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -60,7 +60,20 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|142035877|283587750|e446c15a-d69e-4838-94f4-a5d1e1bca570|2010ac30-d3c8-4ae0-af97-b35f42ce9c15",
+        "silk_over_copper|166877142|283599800|e446c15a-d69e-4838-94f4-a5d1e1bca570|c95c91b2-d036-4ae7-9a01-8c3bed6659de",
+        "silk_over_copper|206378000|279403000|8e8ceb23-4250-4e8d-bbc4-d554ca41c13a|e03308cb-c590-4ba2-a49c-87290b9cc46c",
+        "silk_over_copper|206378000|279712000|92e76b9b-c8dd-4d57-8257-acdb1a0796d5|e03308cb-c590-4ba2-a49c-87290b9cc46c",
+        "silk_over_copper|206378000|281462000|92e76b9b-c8dd-4d57-8257-acdb1a0796d5|4c7f44f3-ceb3-4356-8c1a-fb8b43731137",
+        "silk_over_copper|264160002|54355000|5e64f9c2-fee4-4ac3-915c-33eb68a46a14|55eca0c6-e904-47db-92bc-b8337d2e61f7",
+        "silk_over_copper|264160002|63755000|5e64f9c2-fee4-4ac3-915c-33eb68a46a14|8aca7a48-c495-4094-91a6-a2c4347ce7ff",
+        "silk_overlap|203046048|281943000|4ef81d51-e9c3-4435-bee2-b5da48837d5c|1d9209a8-e859-4c20-91b7-d536444f94ed",
+        "silk_overlap|203046048|282062000|2e2b8f16-9ecb-44ed-9671-336d943a375e|1d9209a8-e859-4c20-91b7-d536444f94ed",
+        "silk_overlap|206378000|278262000|4f08226a-1ce6-4d86-b91f-6ab82bb7c27f|92e76b9b-c8dd-4d57-8257-acdb1a0796d5",
+        "silk_overlap|206378000|278545952|0ee7dc3d-f783-4d6a-974e-3b0e57339092|92e76b9b-c8dd-4d57-8257-acdb1a0796d5",
+        "silk_overlap|206378000|282062000|2e2b8f16-9ecb-44ed-9671-336d943a375e|92e76b9b-c8dd-4d57-8257-acdb1a0796d5"
+      ],
       "meta": {
         "version": 2
       },
