@@ -768,7 +768,7 @@
       (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+      (property "ki_keywords" "global power" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
@@ -836,6 +836,7 @@
       )
     )
   )
+
 
   (junction (at 40.64 71.755) (diameter 0) (color 0 0 0 0)
     (uuid 0aa2d4c4-f92e-48db-a78e-79db3609e7f5)
@@ -1536,7 +1537,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 95d7a49d-7094-4821-a5e1-c7210fc5133b)
   )
-  (hierarchical_label "ESTOP" (shape input) (at 143.51 87.63 0)
+  (hierarchical_label "ESTOP" (shape output) (at 143.51 87.63 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid be0cd3d4-d8e9-4efc-bf88-d7dad53de264)
   )
