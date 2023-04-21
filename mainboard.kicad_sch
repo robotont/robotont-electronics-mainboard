@@ -3458,6 +3458,7 @@
     )
   )
 
+
   (junction (at 143.51 148.59) (diameter 0) (color 0 0 0 0)
     (uuid 00397048-0089-48c3-8ebb-533897e374bf)
   )
@@ -8151,6 +8152,33 @@
     )
     (path "/f96a7951-71ec-4563-89d5-222e7f52e718/b23a0af9-2669-4f42-b7e9-e66c0f162ac4"
       (reference "#FLG013") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/0913b114-836e-4798-83e1-5c61fa5e2bab/4be74b7b-3991-418f-8e2f-8cec711a8d34"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/0913b114-836e-4798-83e1-5c61fa5e2bab/08801d77-5a5b-4363-9f8f-8e88f444fffb"
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/306a26c4-694a-4f92-aa84-d5036a80e493/4be74b7b-3991-418f-8e2f-8cec711a8d34"
+      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/306a26c4-694a-4f92-aa84-d5036a80e493/08801d77-5a5b-4363-9f8f-8e88f444fffb"
+      (reference "#FLG0104") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/5308bbb0-c50f-48be-af52-ca7064ad9f61/4be74b7b-3991-418f-8e2f-8cec711a8d34"
+      (reference "#FLG0105") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/5308bbb0-c50f-48be-af52-ca7064ad9f61/08801d77-5a5b-4363-9f8f-8e88f444fffb"
+      (reference "#FLG0106") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/0913b114-836e-4798-83e1-5c61fa5e2bab/5906ebef-4e1e-4986-8125-f382e6705772"
+      (reference "#FLG0107") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/306a26c4-694a-4f92-aa84-d5036a80e493/5906ebef-4e1e-4986-8125-f382e6705772"
+      (reference "#FLG0108") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/5308bbb0-c50f-48be-af52-ca7064ad9f61/5906ebef-4e1e-4986-8125-f382e6705772"
+      (reference "#FLG0109") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/e65f4bd4-71e3-4f61-9dfb-48661342ede4"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
