@@ -7467,7 +7467,7 @@
     (property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" (id 3) (at 118.745 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C12345" (id 4) (at 118.745 105.41 0)
+    (property "LCSC" "C919362" (id 4) (at 118.745 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a34e2f4f-fb64-4089-9f78-e2eca3aaf21f))
