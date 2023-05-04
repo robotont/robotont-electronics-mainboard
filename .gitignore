@@ -29,3 +29,5 @@ fp-info-cache
 *.xml
 *.csv
 \#auto_saved_files\#
+!jlcpcb/*.csv
+!jlcpcb/production_files/*.csv
