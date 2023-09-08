@@ -2011,7 +2011,7 @@
     (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H13mm" (id 2) (at 45.72 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.tme.eu/ee/details/tactm-619n-f/mikrolulitid-tact/ninigi/" (id 3) (at 45.72 76.835 0)
+    (property "Datasheet" "https://www.tme.eu/ee/details/tactm-619p-f/mikrolulitid-tact/ninigi/" (id 3) (at 45.72 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 449b94af-4b38-45e0-89be-a6538b4d4678))

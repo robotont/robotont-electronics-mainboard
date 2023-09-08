@@ -2632,7 +2632,7 @@
     (property "Footprint" "Robotont:MIKROBUS_HOST_CONN_M" (id 2) (at 66.675 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "Datasheet" "" (id 3) (at 62.865 90.17 0)
+    (property "Datasheet" "https://www.tme.eu/ee/en/details/mikroe-4247/development-kits-accessories/mikroe/socket-mikrobus-16-tht/" (id 3) (at 62.865 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "P1" (uuid ac7b8bd8-7524-4266-9958-abfbb0a98893))
