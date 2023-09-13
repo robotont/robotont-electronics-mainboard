@@ -9313,6 +9313,9 @@
     (path "/dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27/7c5a6034-8188-4c75-8c26-a94d2041c7d0"
       (reference "D63") (unit 1) (value "WS2812B") (footprint "Robotont:LED3535")
     )
+    (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/e3640070-b0ff-41ec-ba90-93914f2ce49a"
+      (reference "D64") (unit 1) (value "D_Zener") (footprint "Diode_SMD:D_MiniMELF")
+    )
     (path "/365953d5-b495-4eb5-9ee7-2e9c75a79786/96c9e6a9-1cdb-4105-a60f-1775edc3b763"
       (reference "F1") (unit 1) (value "BSMD1206-300-6V ") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
@@ -9533,7 +9536,7 @@
       (reference "R30") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/e543e9a3-3448-433a-88ca-5b728ff7f9f7"
-      (reference "R31") (unit 1) (value "22k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R31") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/cc93d968-7ca4-4b20-a91e-af7b0dacee47"
       (reference "R32") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
