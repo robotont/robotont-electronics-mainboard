@@ -9303,6 +9303,9 @@
     (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/a4efa8f8-3580-41b0-98e4-336ebe0ba4f6"
       (reference "#PWR0142") (unit 1) (value "GND") (footprint "")
     )
+    (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/0deecf50-cd2b-4f9f-9669-017b9c34bd8f"
+      (reference "#PWR0143") (unit 1) (value "GND") (footprint "")
+    )
     (path "/2919e8ae-0cfc-458d-8a36-78c332e4eb80/2b4419ea-3390-4d91-9902-0ff86f7f5bcf"
       (reference "A1") (unit 1) (value "Arduino_Nano_v2") (footprint "Module:Arduino_Nano")
     )
@@ -10328,6 +10331,9 @@
     )
     (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/35179495-37d7-47de-ba96-29dd2062304a/bacba362-3bbc-4c05-9c8a-e22e359b1a59"
       (reference "R66") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/a3487df4-4132-4708-8cb5-f24b8a838ca2"
+      (reference "R67") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/734d9450-13cb-486d-bb1e-d318feb59aee"
       (reference "SW1") (unit 1) (value "RotaryEncoder_Switch") (footprint "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm")
