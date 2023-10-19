@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.39999999999999997
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -210,54 +210,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|1409700|1155700|8103eec1-2e6b-4df7-8e47-e5904a55553d|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|1409700|1257300|6ca6c33b-66eb-4ac9-87d3-b6d7827e1b86|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|1409700|1511300|918d0b9b-f4b4-44aa-8c09-6f1160bcbff5|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|0b81710e-17ab-497e-bfde-8360be1d11dd|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|10777afb-5b94-462d-b4a3-8e0ebf5bf399|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|108ad30a-bb4c-494a-9612-1c1231c658e1|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|11f2a21a-afc9-4c69-ac6b-f465f9360776|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|15a6a043-ccc3-4eae-a40e-ff5f4a09cd2d|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|16c9fdcc-4188-4340-b276-50faa39a2632|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|2fa1942b-83d4-4ac6-a2ce-438085febd8b|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|32e9a4ff-3375-4bc6-91d0-dccd218c7a5c|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|3c2ab8fd-23f1-4951-9a2f-31a9c5411693|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|3e9c4ba4-d5db-45ba-b713-391bf22bbd41|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|44faa66a-33d7-459e-9063-ac45c7c95324|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|4554caf2-de72-405e-bc3b-29a5275e9a1c|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|4a751bfd-86fa-44f5-89d7-921c3e65fe45|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|4d6ec35c-a57b-48a5-97c0-d184ee210b1c|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|4f830681-2549-4c50-a88a-4309706d3cc4|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|57fdc3f2-a8aa-4453-9abd-ba454e020771|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|66396b62-07e6-4ecc-b492-ba78862d389f|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|6ce1bf9d-8d14-433e-8e0c-230baa1ecdb8|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|6d177bd1-d60c-4abe-b96e-a75eaace26b6|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|6fb3fe86-97f4-4701-8fc1-935697113909|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|6ffac6a2-c275-4b02-b1e3-d6614100412c|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|70f641b4-3126-4bf0-837d-79e8b6af36dd|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|74af1dd4-4a41-42e8-a684-97114f350c1a|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|75225009-70bc-4a8c-8075-fa1b0a6f6975|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|8046c067-15d7-43ed-8b23-877a99fa9585|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|89e32c49-77b2-4644-9b47-8834362ded02|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|8b5cac08-1d51-4764-b30f-bfceec328bdf|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|988f6d51-2659-42a1-95ba-78872a1e842d|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|995b9e7b-7096-416f-8699-9de08655dfe5|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|9f7cd659-1e25-48ad-89a0-7feb639d23ab|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|a2c620a0-8ceb-455b-b857-7a9121f62775|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|aa0f3f95-a639-4cc4-8416-d5586e51e6c5|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|b8687cae-ba99-4268-a529-780de3b88a66|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|bae310b0-d689-43c7-829b-4fe51b3e0fb2|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|c284703b-33d6-4cdd-b9fb-89d31e114095|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|c9c11902-eaa9-4a16-b129-d7a281a069d2|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|d162998a-a8fc-437c-84b6-8f3d6ba4d540|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|d59f8058-ef85-4ebf-8390-8337c640aa40|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|d6e99722-b21f-405b-b4c5-778e6915318a|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|dbb50290-a02d-472d-a1ee-193a1943989d|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|e1a90833-c64a-413e-aee9-d9bc4766daf6|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|393700|2603500|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|f616d4d1-9a5d-4ae1-8fde-3a75bf940a1c|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240",
-      "pin_to_pin|952500|1308100|d93b0ae5-e294-4f43-9727-7c379dc7bf1e|3cd54a6e-0efd-4f23-81ae-e7ddedbe5904|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240|/ebe87c89-9c25-4dbf-a80d-e2428f6eb240"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
