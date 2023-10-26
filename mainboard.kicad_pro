@@ -588,6 +588,14 @@
     [
       "35179495-37d7-47de-ba96-29dd2062304a",
       "Motor power switch"
+    ],
+    [
+      "e8a8f361-91aa-462b-8e63-60b555157c0b",
+      "Motor current monitoring"
+    ],
+    [
+      "38150513-074d-4d41-bfab-41c63f3cfef9",
+      "Nuc and EXT current monitor"
     ]
   ],
   "text_variables": {}
