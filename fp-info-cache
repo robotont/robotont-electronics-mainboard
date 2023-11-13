@@ -1,4 +1,4 @@
-22374704427002215
+22386622532288270
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84910,6 +84910,20 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 2
 2
 Robotont
+AMASS_MR30PW-M_1x03_P3.50mm_Horizontal
+Connector XT30 Horizontal PCB Male, https://www.tme.eu/en/Document/5e47640ba39fa492dbd4c0f4c8ae7b93/MR30PW%20SPEC.pdf
+RC Connector XT30
+0
+5
+3
+Robotont
+Arduino_Nano
+Arduino Nano, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf
+Arduino Nano
+0
+30
+30
+Robotont
 CAP-SMD_BD8.0-L8.3-W8.3-LS9.0-FD_35SVPF39M
 
 
@@ -84920,6 +84934,13 @@ Robotont
 CAP-SMD_BD10.0-L10.3-W10.3-FD_EEHZC1E331P
 
 
+0
+2
+2
+Robotont
+D_SOD-128
+D_SOD-128 (CFP5 SlimSMAW), https://assets.nexperia.com/documents/outline-drawing/SOD128.pdf
+D_SOD-128
 0
 2
 2
@@ -84987,12 +85008,33 @@ mikrobus
 16
 16
 Robotont
+Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical
+Molex Micro-Fit 3.0 Connector System, 43045-0212 (compatible alternatives: 43045-0213, 43045-0224), 1 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 side entry
+0
+2
+2
+Robotont
+Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical
+Molex Micro-Fit 3.0 Connector System, 43045-0612 (compatible alternatives: 43045-0613, 43045-0624), 3 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 side entry
+0
+6
+6
+Robotont
 POWERPAKSO-8
 <b>PowerPAK SO-8</b><br>
 
 0
 9
 9
+Robotont
+RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
 Robotont
 SOP65P640X120-17N
 
@@ -85014,6 +85056,13 @@ TSOT-23_S6
 0
 6
 6
+Robotont
+USB_C_Receptacle_HRO_TYPE-C-31-M-12
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+20
+16
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
