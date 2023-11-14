@@ -2654,7 +2654,7 @@
     (property "Value" "ESTOP CONN" (at 34.925 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical" (at 30.48 62.23 0)
+    (property "Footprint" "Robotont:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical" (at 30.48 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.tme.eu/Document/46c08cba05d047bfb46dd03c4eb9694f/mx43045a.pdf" (at 30.48 62.23 0)
