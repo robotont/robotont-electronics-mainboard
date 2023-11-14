@@ -1,4 +1,4 @@
-22388332097837563
+22390032055525971
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85022,6 +85022,13 @@ connector Molex Micro-Fit_3.0 side entry
 6
 6
 Robotont
+MountingHole_3.5mm_Pad_TopBottom
+Mounting Hole 3.5mm
+mounting hole 3.5mm
+0
+3
+1
+Robotont
 POWERPAKSO-8
 <b>PowerPAK SO-8</b><br>
 
@@ -85069,7 +85076,7 @@ USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/1803
 usb usb-c 2.0 pd
 0
 20
-17
+16
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
