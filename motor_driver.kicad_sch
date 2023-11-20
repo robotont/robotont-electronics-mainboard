@@ -904,7 +904,7 @@
     (property "Reference" "C24" (at 116.205 57.1499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22nF" (at 116.205 59.6899 0)
+    (property "Value" "33nF" (at 116.205 59.6899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 113.03 58.42 0)
