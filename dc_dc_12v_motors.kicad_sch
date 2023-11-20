@@ -6,9 +6,10 @@
 
   (title_block
     (title "DC-DC converter 12V for motors")
-    (date "2023-03-10")
-    (rev "1")
+    (date "2023-21-11")
+    (rev "0.2.0")
     (company "University of Tartu")
+    (comment 1 "Licensed under CERN-OHL-P")
   )
 
   (lib_symbols
