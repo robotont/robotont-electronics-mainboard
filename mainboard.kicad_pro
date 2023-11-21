@@ -521,8 +521,8 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
-    "plot_directory": "",
+    "page_layout_descr_file": "mainboard.kicad_wks",
+    "plot_directory": "docs",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -554,12 +554,16 @@
       "Power Management"
     ],
     [
-      "bf9c2daa-0db5-447f-b38e-6186da69c88b",
-      "DC-DC 12V for Motors"
+      "f96a7951-71ec-4563-89d5-222e7f52e718",
+      "DC-DC 3V3 for Power Management"
     ],
     [
       "365953d5-b495-4eb5-9ee7-2e9c75a79786",
       "DC-DC for EXT, MCU, and LEDs"
+    ],
+    [
+      "bf9c2daa-0db5-447f-b38e-6186da69c88b",
+      "DC-DC 12V for Motors"
     ],
     [
       "2919e8ae-0cfc-458d-8a36-78c332e4eb80",
@@ -568,10 +572,6 @@
     [
       "dd0e90ba-a6c7-4aff-b4c0-ae20ae3e3d27",
       "Addressable LEDs around the PCB"
-    ],
-    [
-      "f96a7951-71ec-4563-89d5-222e7f52e718",
-      "DC-DC 3V3 for Power Management"
     ],
     [
       "262fe21c-2d6f-494e-b4ac-8e9e705153fd",
