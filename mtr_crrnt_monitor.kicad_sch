@@ -486,7 +486,7 @@
   (symbol (lib_id "Device:R") (at 87.63 68.58 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 331d825c-38cd-4799-a73f-18aa89c08653)
-    (property "Reference" "R33" (at 86.36 65.405 90)
+    (property "Reference" "R75" (at 86.36 65.405 90)
       (effects (font (size 1.4986 1.4986)) (justify left bottom))
     )
     (property "Value" "10k" (at 86.36 67.31 90)
@@ -505,9 +505,6 @@
     (pin "2" (uuid cd9a7255-7f5e-4a5a-83ab-98c34548a31e))
     (instances
       (project "mainboard"
-        (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c"
-          (reference "R33") (unit 1)
-        )
         (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/e8a8f361-91aa-462b-8e63-60b555157c0b"
           (reference "R75") (unit 1)
         )
@@ -576,7 +573,7 @@
   (symbol (lib_id "Device:D_Zener") (at 107.95 72.39 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e450521-51af-4e6e-b9df-a90fe66b96b7)
-    (property "Reference" "D64" (at 110.871 71.1199 90)
+    (property "Reference" "D69" (at 110.871 71.1199 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_Zener" (at 110.871 73.6599 90)
@@ -595,9 +592,6 @@
     (pin "2" (uuid 7f8966aa-bbe6-4315-ba9b-174cfb2a6354))
     (instances
       (project "mainboard"
-        (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c"
-          (reference "D64") (unit 1)
-        )
         (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/e8a8f361-91aa-462b-8e63-60b555157c0b"
           (reference "D69") (unit 1)
         )

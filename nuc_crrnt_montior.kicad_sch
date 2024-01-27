@@ -453,7 +453,7 @@
   (symbol (lib_id "Device:C") (at 112.395 73.025 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5020231b-5c05-42cb-a980-c1d2074cfd5c)
-    (property "Reference" "C160" (at 116.205 71.755 0)
+    (property "Reference" "C161" (at 116.205 71.755 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF" (at 116.205 74.295 0)
@@ -472,9 +472,6 @@
     (pin "2" (uuid fb08d54c-c293-4021-8d0f-930fef3b358b))
     (instances
       (project "mainboard"
-        (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/e8a8f361-91aa-462b-8e63-60b555157c0b"
-          (reference "C160") (unit 1)
-        )
         (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/38150513-074d-4d41-bfab-41c63f3cfef9"
           (reference "C161") (unit 1)
         )
@@ -485,7 +482,7 @@
   (symbol (lib_id "Device:D_Zener") (at 127.635 73.025 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6723f143-5f8f-4add-bcab-bb732cc7acdb)
-    (property "Reference" "D64" (at 130.175 72.39 90)
+    (property "Reference" "D70" (at 130.175 72.39 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_Zener" (at 130.175 74.93 90)
@@ -504,9 +501,6 @@
     (pin "2" (uuid 519149f4-ad64-48fc-a8e7-1ac85d324f8d))
     (instances
       (project "mainboard"
-        (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c"
-          (reference "D64") (unit 1)
-        )
         (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/38150513-074d-4d41-bfab-41c63f3cfef9"
           (reference "D70") (unit 1)
         )
@@ -542,7 +536,7 @@
   (symbol (lib_id "Device:R") (at 105.41 69.215 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b3ddced9-8396-4172-bb3d-39e10f67b1f9)
-    (property "Reference" "R33" (at 104.14 66.04 90)
+    (property "Reference" "R76" (at 104.14 66.04 90)
       (effects (font (size 1.4986 1.4986)) (justify left bottom))
     )
     (property "Value" "10k" (at 104.14 67.945 90)
@@ -561,9 +555,6 @@
     (pin "2" (uuid 1072c8c6-ba2b-4d85-966a-f0dbcc74aeba))
     (instances
       (project "mainboard"
-        (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c"
-          (reference "R33") (unit 1)
-        )
         (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/38150513-074d-4d41-bfab-41c63f3cfef9"
           (reference "R76") (unit 1)
         )

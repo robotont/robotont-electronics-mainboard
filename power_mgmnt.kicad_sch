@@ -2408,9 +2408,6 @@
     (pin "1" (uuid 5516fa80-d862-44ed-9114-05ccd33dfe03))
     (instances
       (project "mainboard"
-        (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c"
           (reference "#PWR048") (unit 1)
         )
@@ -2647,7 +2644,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x03_Top_Bottom") (at 30.48 62.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 44df7b03-6b31-4d3d-bf87-d66e5cdb4a9e)
     (property "Reference" "J13" (at 29.845 55.245 0)
       (effects (font (size 1.27 1.27)))
@@ -2813,7 +2810,7 @@
   (symbol (lib_id "Device:R") (at 271.78 136.525 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66fdb8fe-6a9c-4b95-8499-c0d293315bd0)
-    (property "Reference" "R10" (at 276.86 135.255 0)
+    (property "Reference" "R11" (at 276.86 135.255 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "120" (at 276.86 137.795 0)
@@ -2832,9 +2829,6 @@
     (pin "2" (uuid 76fe17b3-a338-43e0-943a-d83ade271103))
     (instances
       (project "mainboard"
-        (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240"
-          (reference "R10") (unit 1)
-        )
         (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c"
           (reference "R11") (unit 1)
         )
@@ -2947,9 +2941,6 @@
     (pin "2" (uuid b538bfa1-f87d-46fc-9de4-daf98bfe7d1c))
     (instances
       (project "mainboard"
-        (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240"
-          (reference "R10") (unit 1)
-        )
         (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c"
           (reference "R10") (unit 1)
         )
@@ -2985,7 +2976,7 @@
   (symbol (lib_id "Device:LED") (at 271.78 127.635 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f3033d5-068b-4c04-bb7b-c17545ca8fc9)
-    (property "Reference" "D71" (at 277.495 126.365 90)
+    (property "Reference" "D72" (at 277.495 126.365 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_R" (at 277.495 128.905 90)
@@ -3004,9 +2995,6 @@
     (pin "2" (uuid ed8b1cfd-e055-4b05-ade1-25a62a21d135))
     (instances
       (project "mainboard"
-        (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240"
-          (reference "D71") (unit 1)
-        )
         (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c"
           (reference "D72") (unit 1)
         )
@@ -3293,7 +3281,7 @@
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 34.29 35.56 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid a70687a9-31e7-4343-8cc4-733b39485fe7)
     (property "Reference" "SW2" (at 22.86 34.29 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3518,7 +3506,7 @@
   )
 
   (symbol (lib_id "Connector:AVR-ISP-6") (at 194.31 85.09 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c72d23b9-400d-4b3d-9755-5e1934c94595)
     (property "Reference" "J12" (at 203.835 82.5499 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3873,9 +3861,6 @@
     (pin "2" (uuid 240994a5-565f-42ef-8b38-1415f08867cf))
     (instances
       (project "mainboard"
-        (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240"
-          (reference "D71") (unit 1)
-        )
         (path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c"
           (reference "D71") (unit 1)
         )
