@@ -7,7 +7,7 @@
   (property "Sheetname" "")
   (property "ki_description" "USB 2.0-only Type-C Receptacle connector")
   (property "ki_keywords" "usb universal serial bus type-C USB2.0")
-  (attr smd)
+  (attr through_hole)
   (fp_text reference "J4" (at -6.223 0.3 180) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b326a049-a102-4352-bb72-f8819ad0a050)
