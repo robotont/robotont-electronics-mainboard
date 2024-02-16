@@ -1215,7 +1215,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Open") (at 123.825 104.775 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid e3045bf0-ca6b-4e70-aa6a-f80c3556f367)
     (property "Reference" "JP5" (at 121.285 103.5049 90)
       (effects (font (size 1.27 1.27)) (justify left))

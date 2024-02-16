@@ -1001,7 +1001,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 45.72 81.28 90) (mirror x) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 4f92e6a0-0585-4c07-87fc-c00c7df1ff1c)
     (property "Reference" "JP6" (at 49.53 79.375 90)
       (effects (font (size 1.27 1.27)))

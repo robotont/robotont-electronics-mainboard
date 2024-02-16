@@ -2644,7 +2644,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x03_Top_Bottom") (at 30.48 62.23 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 44df7b03-6b31-4d3d-bf87-d66e5cdb4a9e)
     (property "Reference" "J13" (at 29.845 55.245 0)
       (effects (font (size 1.27 1.27)))
@@ -3281,7 +3281,7 @@
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 34.29 35.56 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid a70687a9-31e7-4343-8cc4-733b39485fe7)
     (property "Reference" "SW2" (at 22.86 34.29 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3506,7 +3506,7 @@
   )
 
   (symbol (lib_id "Connector:AVR-ISP-6") (at 194.31 85.09 0) (mirror y) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid c72d23b9-400d-4b3d-9755-5e1934c94595)
     (property "Reference" "J12" (at 203.835 82.5499 0)
       (effects (font (size 1.27 1.27)) (justify right))

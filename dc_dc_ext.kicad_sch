@@ -1335,7 +1335,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Open") (at 123.19 125.73 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 52b74f14-0433-4760-b9ec-cadcd7fe4cde)
     (property "Reference" "JP3" (at 120.65 124.4599 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2058,7 +2058,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Open") (at 123.19 58.42 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid ee964361-07c7-4163-add6-8cc90a3e6b88)
     (property "Reference" "JP2" (at 120.65 57.1499 90)
       (effects (font (size 1.27 1.27)) (justify left))

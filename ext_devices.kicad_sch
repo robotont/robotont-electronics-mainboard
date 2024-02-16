@@ -2012,7 +2012,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Bridged12") (at 55.88 116.84 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 1dce949f-b2a7-4846-bda4-a18b2822413d)
     (property "Reference" "JP4" (at 55.88 110.49 0)
       (effects (font (size 1.27 1.27)))
@@ -2147,12 +2147,12 @@
   )
 
   (symbol (lib_id "MCU_Module:Arduino_Nano_v2.x") (at 153.035 67.945 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 2b4419ea-3390-4d91-9902-0ff86f7f5bcf)
     (property "Reference" "A1" (at 157.5944 93.345 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Arduino_Nano_v2" (at 157.5944 95.885 0)
+    (property "Value" "Arduino_Nano" (at 157.5944 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Robotont:Arduino_Nano" (at 153.035 67.945 0)
@@ -2938,7 +2938,7 @@
   )
 
   (symbol (lib_id "Robotont:MIKROBUS_HOST_CONN") (at 50.165 88.265 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid bb6c0ecd-1cf7-4512-adaf-3ddf3d49ae2d)
     (property "Reference" "CON1" (at 64.135 42.545 0)
       (effects (font (size 1.27 1.27)))
@@ -2978,7 +2978,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x08_Odd_Even") (at 231.14 64.135 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid bb806021-457c-47bb-ab85-8a146a36c2e3)
     (property "Reference" "J19" (at 232.41 50.165 0)
       (effects (font (size 1.27 1.27)))
