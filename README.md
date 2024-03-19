@@ -1,5 +1,5 @@
 # robotont-electronics-mainboard
-This repository contains electronics schematics and PCB layout of the 3rd generation Robotont mainboard. The project is developed in KiCAD 7 and offers production files for JLCPCB.
+This repository contains electronics schematics and PCB layout of the 3rd generation Robotont mainboard. The project is developed in KiCAD 8 and offers production files for JLCPCB.
 
 ## Schematics
 
@@ -28,7 +28,7 @@ The following 3D rendering illustrates the PCB design of the gen3.0.0-ver0.2.0 m
 If you're on Ubuntu, here's a snippet:
 
 ``` bash
-    sudo add-apt-repository ppa:kicad/kicad-7.0-releases -y
+    sudo add-apt-repository ppa:kicad/kicad-8.0-releases -y
     sudo apt update
     sudo apt install kicad
 ```
