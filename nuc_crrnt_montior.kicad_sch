@@ -148,151 +148,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Zener"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -720,12 +575,6 @@
 		(uuid "4a8554c1-eca8-4775-b865-e77ef39c28af")
 	)
 	(junction
-		(at 127.635 69.215)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "629dc74d-84cb-4a74-8e3c-ee883a05bf10")
-	)
-	(junction
 		(at 95.885 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -736,12 +585,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d75906e3-487f-41b0-b145-142160a54d74")
-	)
-	(junction
-		(at 112.395 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e00c4102-0323-4c12-a559-bead442d86f9")
 	)
 	(junction
 		(at 85.725 78.74)
@@ -811,7 +654,7 @@
 	)
 	(wire
 		(pts
-			(xy 112.395 69.215) (xy 127.635 69.215)
+			(xy 112.395 69.215) (xy 136.525 69.215)
 		)
 		(stroke
 			(width 0)
@@ -901,16 +744,6 @@
 	)
 	(wire
 		(pts
-			(xy 127.635 78.74) (xy 127.635 76.835)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "badffd73-5f0e-4584-9ca5-2b79dce6928c")
-	)
-	(wire
-		(pts
 			(xy 68.58 81.915) (xy 71.755 81.915)
 		)
 		(stroke
@@ -921,16 +754,6 @@
 	)
 	(wire
 		(pts
-			(xy 112.395 78.74) (xy 127.635 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d76093f9-430c-4684-a836-2537a909fece")
-	)
-	(wire
-		(pts
 			(xy 68.58 65.405) (xy 71.755 65.405)
 		)
 		(stroke
@@ -938,16 +761,6 @@
 			(type default)
 		)
 		(uuid "e76cd5c4-efa3-414c-b7d7-4ff8bfc1a166")
-	)
-	(wire
-		(pts
-			(xy 127.635 69.215) (xy 136.525 69.215)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed2458e3-8872-4504-b51c-647207f6b8bb")
 	)
 	(wire
 		(pts
@@ -1217,84 +1030,6 @@
 			(project "mainboard"
 				(path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/38150513-074d-4d41-bfab-41c63f3cfef9"
 					(reference "C161")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 127.635 73.025 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6723f143-5f8f-4add-bcab-bb732cc7acdb")
-		(property "Reference" "D70"
-			(at 130.175 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 130.175 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 127.635 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/st_semtech-ZMM3V3M/C8056"
-			(at 127.635 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127.635 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C8056"
-			(at 127.635 73.025 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2213b4ac-1a5c-42db-a10a-3d49ae713fba")
-		)
-		(pin "2"
-			(uuid "519149f4-ad64-48fc-a8e7-1ac85d324f8d")
-		)
-		(instances
-			(project "mainboard"
-				(path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/38150513-074d-4d41-bfab-41c63f3cfef9"
-					(reference "D70")
 					(unit 1)
 				)
 			)
