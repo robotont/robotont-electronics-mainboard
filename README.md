@@ -1,5 +1,5 @@
 # robotont-electronics-mainboard
-This repository contains electronics schematics and PCB layout of the 3rd generation Robotont mainboard. The project is developed in KiCAD 8 and offers production files for JLCPCB.
+This repository contains electronics schematics and PCB layout of the Robotont 3 mainboard. The project is developed in KiCAD 8 and offers production files for JLCPCB.
 
 ## Schematics
 
@@ -18,7 +18,7 @@ The scematics of this project have been organized into multiple hierarchical she
 
 ## Board layout
 
-The following 3D rendering illustrates the PCB design of the gen3.0.0-ver0.2.0 mainboard.
+The following 3D rendering illustrates the PCB design of the Robotont 3 mainboard.
 ![Robotont mainboard](docs/robotont-mainboard-pcb.png)
 
 
