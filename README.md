@@ -5,13 +5,14 @@ This repository contains electronics schematics and PCB layout of the 3rd genera
 
 The scematics of this project have been organized into multiple hierarchical sheets according to the robot subsystems. An outline of the pdf is as follows:
 + [Robotont mainboard](docs/robotont-mainboard-sch.pdf)
-  - [Motor drivers](docs/robotont-mainboard-sch.pdf#page=2)
-  - [Power management](docs/robotont-mainboard-sch.pdf#page=5)
-  - [DC-DC converter (for power management)](docs/robotont-mainboard-sch.pdf#page=6)
-  - [DC-DC converters (for MCU, EXT devices, etc)](docs/robotont-mainboard-sch.pdf#page=7)
-  - [DC-DC converter (for motors)](docs/robotont-mainboard-sch.pdf#page=8)
-  - [External device support](docs/robotont-mainboard-sch.pdf#page=9)
-  - [Addressable LEDs](docs/robotont-mainboard-sch.pdf#page=10)
+  - [Motor drivers](https://nbviewer.org/github/robotont/robotont-electronics-mainboard/blob/main/docs/robotont-mainboard-sch.pdf#page=2)
+  - [Power management](https://nbviewer.org/github/robotont/robotont-electronics-mainboard/blob/main/docs/robotont-mainboard-sch.pdf#page=5)
+  - [DC-DC converter (for power management)](https://nbviewer.org/github/robotont/robotont-electronics-mainboard/blob/main/docs/robotont-mainboard-sch.pdf#page=6)
+  - [DC-DC converters (for MCU, EXT devices, etc)](https://nbviewer.org/github/robotont/robotont-electronics-mainboard/blob/main/docs/robotont-mainboard-sch.pdf#page=7)
+  - [DC-DC converter (for motors)](https://nbviewer.org/github/robotont/robotont-electronics-mainboard/blob/main/docs/robotont-mainboard-sch.pdf#page=8)
+  - [External device support](https://nbviewer.org/github/robotont/robotont-electronics-mainboard/blob/main/docs/robotont-mainboard-sch.pdf#page=9)
+  - [Addressable LEDs](https://nbviewer.org/github/robotont/robotont-electronics-mainboard/blob/main/docs/robotont-mainboard-sch.pdf#page=10)
+  
 
 
 
