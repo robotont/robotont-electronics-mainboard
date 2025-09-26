@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "2f2d1ca4-9f3f-49cd-9483-e65d3d1bc1b1")
 	(paper "A4")
 	(title_block
@@ -13,7 +13,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -86,7 +88,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -98,7 +100,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -147,9 +149,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -305,9 +310,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Fuse"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -438,11 +446,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -509,32 +522,8 @@
 			)
 			(symbol "L_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
+					(start 0 2.54)
+					(mid 0.6323 1.905)
 					(end 0 1.27)
 					(stroke
 						(width 0)
@@ -546,8 +535,32 @@
 				)
 				(arc
 					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -595,9 +608,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -716,23 +732,29 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_3_Open"
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Jumper_3_Open"
-				(at 0 2.794 0)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -757,7 +779,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Jumper, 3-pole, both open"
+			(property "Description" "Solder Jumper, 2-pole, open"
 				(at 0 0 0)
 				(effects
 					(font
@@ -766,7 +788,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Jumper SPDT"
+			(property "ki_keywords" "solder jumper SPST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -775,7 +797,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+			(property "ki_fp_filters" "SolderJumper*Open*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -784,10 +806,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "Jumper_3_Open_0_0"
-				(circle
-					(center -3.302 0)
-					(radius 0.508)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -796,58 +819,58 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.302 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_3_Open_0_1"
 				(arc
-					(start -0.254 1.016)
-					(mid -1.651 1.4992)
-					(end -3.048 1.016)
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 0 -0.508) (xy 0 -1.27)
+						(xy 0.254 1.016) (xy 0.254 -1.016)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.048 1.016)
-					(mid 1.651 1.4992)
-					(end 0.254 1.016)
 					(stroke
 						(width 0)
 						(type default)
@@ -857,9 +880,9 @@
 					)
 				)
 			)
-			(symbol "Jumper_3_Open_1_1"
+			(symbol "SolderJumper_2_Open_1_1"
 				(pin passive line
-					(at -6.35 0 0)
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -877,9 +900,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "C"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -894,25 +917,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Regulator_Switching:TPS56339DDC"
 			(exclude_from_sim no)
@@ -997,6 +1003,42 @@
 			)
 			(symbol "TPS56339DDC_1_1"
 				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "GND"
@@ -1032,17 +1074,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -10.16 2.54 0)
+				(pin passive line
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "VIN"
+					(name "BOOT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1068,48 +1110,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "BOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1184,8 +1195,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1201,12 +1212,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1267,7 +1283,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1297,7 +1313,74 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Solder the\njumper to\ndisable chip"
+		(exclude_from_sim no)
+		(at 121.92 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0651fbc3-b7ce-4342-bb66-d3f64ef09d5e")
+	)
+	(text "Solder the\njumper to\ndisable chip"
+		(exclude_from_sim no)
+		(at 123.19 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "432d98ee-6773-4c45-8e97-045226d498fd")
+	)
+	(text "DC-DC converter ext. 5V/3A\n"
+		(exclude_from_sim no)
+		(at 66.04 156.845 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0d9da8c-c80c-4c9d-ac54-57251eba4e7d")
+	)
+	(text "Floating EN, enables chip"
+		(exclude_from_sim no)
+		(at 104.14 37.465 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b268e28f-cb47-43b8-96aa-d68f9bbc45e0")
+	)
+	(text "DC-DC converter ext. 3.3V/3A\n"
+		(exclude_from_sim no)
+		(at 66.04 84.455 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c54fa375-58ee-4783-b17e-574121e155e6")
+	)
+	(text "Floating EN, enables chip"
+		(exclude_from_sim no)
+		(at 104.14 106.045 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f06dd690-5f94-4fd5-86fe-45500d5936c6")
 	)
 	(junction
 		(at 173.99 57.15)
@@ -1348,10 +1431,10 @@
 		(uuid "58a7491e-324f-4f13-9c13-88d9f5c3239f")
 	)
 	(junction
-		(at 106.68 68.58)
+		(at 120.65 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "58f828d2-d3e4-426b-bc6d-da843883f033")
+		(uuid "5e307460-bea7-4948-8ad0-eaad25819be3")
 	)
 	(junction
 		(at 162.56 119.38)
@@ -1366,6 +1449,18 @@
 		(uuid "606a65b7-537d-4941-a41c-bedee3c654c3")
 	)
 	(junction
+		(at 121.92 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "653be164-284b-4e9e-936f-3dcff201077d")
+	)
+	(junction
+		(at 106.68 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75ab3963-aa94-4e70-b9be-b0c194d52e48")
+	)
+	(junction
 		(at 222.25 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1376,12 +1471,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cfa719e-4ad2-41cc-8faf-2ee20be007f8")
-	)
-	(junction
-		(at 106.68 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8cb9b7b6-443b-4932-9ad8-d6c38f392fb7")
 	)
 	(junction
 		(at 71.12 109.22)
@@ -1444,6 +1533,12 @@
 		(uuid "c0ace9e4-40fd-468b-88ba-bfe5857a38c7")
 	)
 	(junction
+		(at 106.68 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6a64d38-8d36-4210-8305-a3eaeb1e2ff6")
+	)
+	(junction
 		(at 162.56 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1479,14 +1574,6 @@
 		(color 0 0 0 0)
 		(uuid "fa7a178e-494c-4199-91dc-3243fd175558")
 	)
-	(no_connect
-		(at 123.19 52.07)
-		(uuid "090d5b80-2b5f-4734-b0d2-2095466d8840")
-	)
-	(no_connect
-		(at 123.19 119.38)
-		(uuid "70536a75-4d1d-4523-a5bd-d8efd657b643")
-	)
 	(wire
 		(pts
 			(xy 173.99 57.15) (xy 173.99 58.42)
@@ -1496,6 +1583,16 @@
 			(type default)
 		)
 		(uuid "01436532-967e-497f-9891-0436961377eb")
+	)
+	(wire
+		(pts
+			(xy 137.16 135.89) (xy 137.16 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ea375b-cbac-4460-8cb5-a49791a7273c")
 	)
 	(polyline
 		(pts
@@ -1516,16 +1613,6 @@
 			(type default)
 		)
 		(uuid "0de263c7-80f8-4fae-91a9-97025f940326")
-	)
-	(wire
-		(pts
-			(xy 127 125.73) (xy 127 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e060ee9-d525-46a0-9d1e-0ea29edc8395")
 	)
 	(wire
 		(pts
@@ -1586,6 +1673,16 @@
 			(type default)
 		)
 		(uuid "1b646c2d-82db-42da-b94b-a8677533725f")
+	)
+	(wire
+		(pts
+			(xy 127 121.92) (xy 120.65 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7e5900-721e-40aa-a271-25cd092c1512")
 	)
 	(wire
 		(pts
@@ -1729,16 +1826,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 64.77) (xy 123.19 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35998881-13db-41de-b888-7f1ffda294ab")
-	)
-	(wire
-		(pts
 			(xy 173.99 106.68) (xy 173.99 105.41)
 		)
 		(stroke
@@ -1776,6 +1863,16 @@
 			(type default)
 		)
 		(uuid "427383ca-7b04-4b50-9ad9-ad7e83ccb02d")
+	)
+	(wire
+		(pts
+			(xy 121.92 62.23) (xy 121.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4440199a-86ae-4afe-b498-a056b7f80bc9")
 	)
 	(wire
 		(pts
@@ -1847,16 +1944,6 @@
 		)
 		(uuid "50076f88-0f76-4737-a710-bdb9464890fd")
 	)
-	(wire
-		(pts
-			(xy 123.19 132.08) (xy 123.19 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5630578d-e673-465c-8ead-a3ee9059ad5a")
-	)
 	(polyline
 		(pts
 			(xy 229.87 160.02) (xy 229.87 93.98)
@@ -1886,6 +1973,16 @@
 			(type default)
 		)
 		(uuid "5eb59e42-d4da-4f05-b556-e9424c1f755c")
+	)
+	(wire
+		(pts
+			(xy 106.68 135.89) (xy 120.65 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62888e52-b048-4ec1-8c1a-926e679c7155")
 	)
 	(wire
 		(pts
@@ -1926,6 +2023,16 @@
 			(type default)
 		)
 		(uuid "6836cbbc-f055-4189-9e08-469edcc3d2ae")
+	)
+	(wire
+		(pts
+			(xy 106.68 68.58) (xy 121.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a4f95bc-9908-4c62-845d-5a35fd2fddbe")
 	)
 	(wire
 		(pts
@@ -2019,6 +2126,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 135.89) (xy 137.16 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82218e16-82a4-4a3f-b233-c8a78c9956d3")
+	)
+	(wire
+		(pts
 			(xy 95.25 41.91) (xy 106.68 41.91)
 		)
 		(stroke
@@ -2099,16 +2216,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 58.42) (xy 127 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "932503de-c6bd-4511-9d4d-d33a2f345e5a")
-	)
-	(wire
-		(pts
 			(xy 185.42 68.58) (xy 196.85 68.58)
 		)
 		(stroke
@@ -2156,6 +2263,16 @@
 			(type default)
 		)
 		(uuid "a1a89748-f9a3-4f26-9bb6-a43b7c40c8bc")
+	)
+	(wire
+		(pts
+			(xy 121.92 68.58) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21fc39b-5287-4468-b1d0-fc2b1287f13e")
 	)
 	(wire
 		(pts
@@ -2237,26 +2354,6 @@
 		)
 		(uuid "bcc2a646-51d1-4f10-861f-7c1ac27ca2dd")
 	)
-	(wire
-		(pts
-			(xy 106.68 135.89) (xy 123.19 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c04f3e98-5eaa-4628-a3a2-a210d8bcaf75")
-	)
-	(wire
-		(pts
-			(xy 106.68 68.58) (xy 123.19 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c33dd599-46a6-4b76-9184-15c7fbb065c9")
-	)
 	(polyline
 		(pts
 			(xy 62.23 26.67) (xy 62.23 87.63)
@@ -2307,6 +2404,16 @@
 		)
 		(uuid "d96dfe81-4e8c-4692-a8ed-59d97d680b9f")
 	)
+	(wire
+		(pts
+			(xy 137.16 59.69) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da167764-14e6-48db-9e0d-8c8732bf9c55")
+	)
 	(polyline
 		(pts
 			(xy 62.23 160.02) (xy 229.87 160.02)
@@ -2326,6 +2433,16 @@
 			(type default)
 		)
 		(uuid "dd4ad4bb-cf86-4600-ba27-bb5a580ad6fc")
+	)
+	(wire
+		(pts
+			(xy 120.65 135.89) (xy 120.65 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de58dc2f-7abb-40cb-a2a4-e4834098a25f")
 	)
 	(wire
 		(pts
@@ -2429,6 +2546,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 54.61) (xy 127 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9876fbc-e5d0-4228-a4d8-612c5a7f8c4a")
+	)
+	(wire
+		(pts
 			(xy 95.25 68.58) (xy 106.68 68.58)
 		)
 		(stroke
@@ -2447,120 +2574,9 @@
 		)
 		(uuid "fc494b2d-e278-4a80-98c4-58eb58bfd4b4")
 	)
-	(text "ON\n"
-		(exclude_from_sim no)
-		(at 118.11 121.285 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "17b44b84-2150-4b34-8a1a-9466425dc730")
-	)
-	(text "OFF"
-		(exclude_from_sim no)
-		(at 118.11 62.865 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27414551-219d-45f7-9e19-6e50dcd23c40")
-	)
-	(text "Jumper for turning off the chip\n"
-		(exclude_from_sim no)
-		(at 109.22 137.795 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "605792c6-535c-4dd5-9da2-6bae3fd7a67a")
-	)
-	(text "ON\n"
-		(exclude_from_sim no)
-		(at 118.11 53.975 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6911640f-71c0-4ca5-9f7f-fc9ab528b23d")
-	)
-	(text "OFF"
-		(exclude_from_sim no)
-		(at 118.11 130.175 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "86e29fdc-720e-4749-928f-ee99bf3c739e")
-	)
-	(text "DC-DC converter ext. 5V/3A\n"
-		(exclude_from_sim no)
-		(at 66.04 156.845 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0d9da8c-c80c-4c9d-ac54-57251eba4e7d")
-	)
-	(text "Floating EN, enables chip"
-		(exclude_from_sim no)
-		(at 104.14 37.465 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b268e28f-cb47-43b8-96aa-d68f9bbc45e0")
-	)
-	(text "DC-DC converter ext. 3.3V/3A\n"
-		(exclude_from_sim no)
-		(at 66.04 84.455 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c54fa375-58ee-4783-b17e-574121e155e6")
-	)
-	(text "Floating EN, enables chip"
-		(exclude_from_sim no)
-		(at 104.14 106.045 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f06dd690-5f94-4fd5-86fe-45500d5936c6")
-	)
-	(text "Jumper for turning off the chip\n"
-		(exclude_from_sim no)
-		(at 109.22 70.485 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4536847-752f-491a-9d8c-9fffb94f7ac6")
-	)
 	(hierarchical_label "V+"
 		(shape input)
 		(at 71.12 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2572,7 +2588,6 @@
 	(hierarchical_label "V+"
 		(shape input)
 		(at 71.12 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2584,7 +2599,6 @@
 	(hierarchical_label "+5V"
 		(shape output)
 		(at 223.52 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2596,7 +2610,6 @@
 	(hierarchical_label "+3.3V"
 		(shape output)
 		(at 220.98 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2650,7 +2663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 219.71 38.1 0)
 			(effects
 				(font
@@ -2688,7 +2701,7 @@
 				)
 			)
 		)
-		(property "Value" "BSMD1206-300-6V "
+		(property "Value" "BSMD1206-300-6V"
 			(at 205.74 101.6 90)
 			(effects
 				(font
@@ -2971,7 +2984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 71.12 135.89 0)
 			(effects
 				(font
@@ -3363,7 +3376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 185.42 135.89 0)
 			(effects
 				(font
@@ -3467,79 +3480,6 @@
 			(project "mainboard"
 				(path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/365953d5-b495-4eb5-9ee7-2e9c75a79786"
 					(reference "C57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_3_Open")
-		(at 123.19 125.73 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "52b74f14-0433-4760-b9ec-cadcd7fe4cde")
-		(property "Reference" "JP3"
-			(at 120.65 124.4599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" " "
-			(at 120.65 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 123.19 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2e42641-3125-4bfa-a44c-e09445f5fe48")
-		)
-		(pin "2"
-			(uuid "d48bfb69-0548-4a72-a4f3-21e0affb32da")
-		)
-		(pin "3"
-			(uuid "b066d803-b61f-4f9f-9519-942f0f602ee1")
-		)
-		(instances
-			(project "mainboard"
-				(path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/365953d5-b495-4eb5-9ee7-2e9c75a79786"
-					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -3860,72 +3800,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 137.16 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f73a990-b1f6-4fb4-aada-2d39b32173a2")
-		(property "Reference" "#PWR076"
-			(at 137.16 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "345efb50-330c-4ffb-b9f4-a0af922d7ca9")
-		)
-		(instances
-			(project "mainboard"
-				(path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/365953d5-b495-4eb5-9ee7-2e9c75a79786"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Switching:TPS56339DDC")
 		(at 137.16 52.07 0)
 		(unit 1)
@@ -4010,6 +3884,72 @@
 			(project "mainboard"
 				(path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/365953d5-b495-4eb5-9ee7-2e9c75a79786"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 83.82 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ceea507-94cb-4e00-be4f-790952af2d15")
+		(property "Reference" "#FLG015"
+			(at 83.82 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 83.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 83.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf6d7a09-e187-4e99-aeff-af5d20512cad")
+		)
+		(instances
+			(project ""
+				(path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/365953d5-b495-4eb5-9ee7-2e9c75a79786"
+					(reference "#FLG015")
 					(unit 1)
 				)
 			)
@@ -4170,72 +4110,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 137.16 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "864bbb95-80e6-4d9b-8f36-31f40be029a1")
-		(property "Reference" "#PWR073"
-			(at 137.16 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04648ed3-f2a4-47db-ae7f-687a6b48c581")
-		)
-		(instances
-			(project "mainboard"
-				(path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/365953d5-b495-4eb5-9ee7-2e9c75a79786"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 173.99 50.8 0)
 		(unit 1)
@@ -4330,7 +4204,7 @@
 				)
 			)
 		)
-		(property "Value" "BSMD1206-300-6V "
+		(property "Value" "BSMD1206-300-6V"
 			(at 205.74 34.29 90)
 			(effects
 				(font
@@ -4685,7 +4559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 71.12 68.58 0)
 			(effects
 				(font
@@ -4941,6 +4815,76 @@
 			(project "mainboard"
 				(path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/365953d5-b495-4eb5-9ee7-2e9c75a79786"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 121.92 58.42 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "bcca9276-84de-4f01-8334-196011fe693a")
+		(property "Reference" "JP2"
+			(at 124.46 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 124.46 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 121.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 121.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce8a98b5-22bc-4c0e-b8b9-616be60e190a")
+		)
+		(pin "1"
+			(uuid "751b5eb4-bf07-48cf-a173-d7bc6e5f5046")
+		)
+		(instances
+			(project ""
+				(path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/365953d5-b495-4eb5-9ee7-2e9c75a79786"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -5316,7 +5260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 185.42 68.58 0)
 			(effects
 				(font
@@ -5417,35 +5361,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_3_Open")
-		(at 123.19 58.42 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 120.65 125.73 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "ee964361-07c7-4163-add6-8cc90a3e6b88")
-		(property "Reference" "JP2"
-			(at 120.65 57.1499 90)
+		(uuid "f0009b76-72e4-4d78-bf1b-92bef0cda668")
+		(property "Reference" "JP3"
+			(at 123.19 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" " "
-			(at 120.65 59.6899 90)
+		(property "Value" "SolderJumper_2_Open"
+			(at 123.19 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 123.19 58.42 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +5398,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 58.42 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,28 +5406,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 123.19 58.42 0)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "2f502a84-94b1-4e7a-aa47-a29ad6b59a25")
 		)
 		(pin "2"
-			(uuid "9e47af2b-2346-4de8-88be-ffece8709e8a")
+			(uuid "50de6274-7ff4-4ee2-bc30-4f7eb1d61bf0")
 		)
-		(pin "3"
-			(uuid "0191bcde-f199-459f-9ca8-875828d5703e")
+		(pin "1"
+			(uuid "554d250d-ef89-4269-a2f9-4fbd76dfee66")
 		)
 		(instances
 			(project "mainboard"
 				(path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/365953d5-b495-4eb5-9ee7-2e9c75a79786"
-					(reference "JP2")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -5534,7 +5475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 222.25 105.41 0)
 			(effects
 				(font
