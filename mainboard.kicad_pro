@@ -592,6 +592,12 @@
         },
         {
           "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -634,12 +640,6 @@
         },
         {
           "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Trip",
           "name": "Trip",
           "show": false
@@ -657,12 +657,12 @@
           "show": false
         }
       ],
-      "filter_string": "r",
+      "filter_string": "R",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Hold"
     },
     "connection_grid_size": 50.0,
     "drawing": {
