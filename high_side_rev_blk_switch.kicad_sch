@@ -1863,7 +1863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C130105.pdf"
 			(at 162.56 80.01 0)
 			(effects
 				(font
@@ -2016,7 +2016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C130105.pdf"
 			(at 116.84 80.01 0)
 			(effects
 				(font
@@ -2112,6 +2112,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1596"
 			(at 148.59 81.28 0)
 			(effects
 				(font

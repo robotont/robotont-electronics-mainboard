@@ -2987,7 +2987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Robotont:IND-JSHC0650-5R6M"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FXL0630"
 			(at 167.64 119.38 0)
 			(effects
 				(font
@@ -2996,7 +2996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Jinlai-JSHC0650-5R6MH-5R6M-G_C386869.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C475914.pdf"
 			(at 167.64 119.38 0)
 			(effects
 				(font
@@ -3014,7 +3014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Component" "JSHC0650-5R6M"
+		(property "Component" "FXL0630-5R6-M"
 			(at 167.64 119.38 90)
 			(effects
 				(font
@@ -3023,7 +3023,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C386869"
+		(property "LCSC Part" "C475914"
 			(at 167.64 119.38 0)
 			(effects
 				(font

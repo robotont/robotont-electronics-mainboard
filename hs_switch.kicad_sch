@@ -1683,7 +1683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C130105.pdf"
 			(at 162.56 74.93 0)
 			(effects
 				(font

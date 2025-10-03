@@ -2064,6 +2064,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C151340"
+			(at 82.55 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec6f89e5-17ad-44d0-9eb2-88f13a5b2169")
 		)
@@ -2418,6 +2427,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C7955"
+			(at 166.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "84802bbe-8b5b-4214-8514-873179cac2e6")
 		)
@@ -2564,6 +2582,15 @@
 			)
 		)
 		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8"
+			(at 166.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7955"
 			(at 166.37 147.32 0)
 			(effects
 				(font
@@ -2729,6 +2756,15 @@
 			)
 		)
 		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8"
+			(at 113.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7955"
 			(at 113.03 80.01 0)
 			(effects
 				(font
