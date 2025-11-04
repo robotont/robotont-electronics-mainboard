@@ -979,10 +979,22 @@
 		(uuid "3c6bb8a8-d4b3-4540-b101-739a83c82fc4")
 	)
 	(junction
+		(at 118.11 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f5fc08b-e9bd-4ecb-9928-2f18338a89b6")
+	)
+	(junction
 		(at 127 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "765e8338-6ad4-407b-805c-d35ae1fd676f")
+	)
+	(junction
+		(at 85.09 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "860572fe-f823-4056-8d9b-928068d515da")
 	)
 	(junction
 		(at 196.85 73.66)
@@ -991,7 +1003,7 @@
 		(uuid "8c0baff3-854c-4b48-b2f0-99f0884dae24")
 	)
 	(junction
-		(at 153.67 149.86)
+		(at 74.93 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90f84402-05c0-4817-9be7-ed579b0e9649")
@@ -1009,10 +1021,16 @@
 		(uuid "aba245af-409b-49b8-aa07-05f698e44b66")
 	)
 	(junction
-		(at 153.67 156.21)
+		(at 74.93 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae8426d2-9a40-479f-b402-ddbfec36740d")
+	)
+	(junction
+		(at 100.33 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c456bc20-d2b9-4387-8790-623becff233d")
 	)
 	(junction
 		(at 82.55 62.23)
@@ -1039,7 +1057,7 @@
 		(uuid "f779b32b-52a7-45c4-8c25-edba59749fff")
 	)
 	(no_connect
-		(at 176.53 147.32)
+		(at 97.79 144.78)
 		(uuid "fff39202-899b-4f0d-87e7-9e662ab09bbf")
 	)
 	(wire
@@ -1064,7 +1082,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 82.55) (xy 105.41 82.55)
+			(xy 82.55 82.55) (xy 101.6 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1094,13 +1112,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 144.78) (xy 153.67 149.86)
+			(xy 74.93 142.24) (xy 74.93 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0fb3b2f3-d9f6-48ac-8d53-1b34b1e2e16b")
+	)
+	(wire
+		(pts
+			(xy 85.09 124.46) (xy 87.63 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aec9180-ab11-49cd-a56e-b058cabf8eee")
 	)
 	(wire
 		(pts
@@ -1144,6 +1172,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 62.23) (xy 100.33 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "251c29d9-b856-48a7-916f-472480bf872f")
+	)
+	(wire
+		(pts
 			(xy 179.07 66.04) (xy 196.85 66.04)
 		)
 		(stroke
@@ -1184,13 +1222,23 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 154.94) (xy 163.83 156.21)
+			(xy 85.09 152.4) (xy 85.09 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2d5828db-9114-4ce5-9227-f8fd3c11738f")
+	)
+	(wire
+		(pts
+			(xy 105.41 62.23) (xy 100.33 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcb3b7d-d1e6-4fd4-988b-e6da3d27e3d1")
 	)
 	(wire
 		(pts
@@ -1244,6 +1292,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 124.46) (xy 85.09 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542aecee-6d53-47c5-b4ba-46b1b4c65190")
+	)
+	(wire
+		(pts
 			(xy 127 58.42) (xy 127 60.96)
 		)
 		(stroke
@@ -1264,6 +1322,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 77.47) (xy 101.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7c446b-df86-4cc6-b0a2-e2b1e4990ce5")
+	)
+	(wire
+		(pts
 			(xy 163.83 124.46) (xy 166.37 124.46)
 		)
 		(stroke
@@ -1274,13 +1342,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 144.78) (xy 153.67 144.78)
+			(xy 80.01 142.24) (xy 74.93 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "60328656-111a-4217-840b-bc561274d308")
+	)
+	(wire
+		(pts
+			(xy 118.11 62.23) (xy 118.11 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60cdc848-4f5a-435e-87f0-278b2df47f62")
 	)
 	(wire
 		(pts
@@ -1304,23 +1382,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 156.21) (xy 153.67 158.75)
+			(xy 74.93 153.67) (xy 74.93 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "66a8eab2-31cc-4536-ae36-68acbfdb0b10")
-	)
-	(wire
-		(pts
-			(xy 163.83 124.46) (xy 163.83 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6881d050-0087-44ac-9b3b-2522919ac930")
 	)
 	(wire
 		(pts
@@ -1334,7 +1402,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 124.46) (xy 87.63 124.46)
+			(xy 77.47 124.46) (xy 85.09 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1344,7 +1412,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 147.32) (xy 173.99 147.32)
+			(xy 97.79 144.78) (xy 95.25 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1354,7 +1422,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 80.01) (xy 127 80.01)
+			(xy 116.84 80.01) (xy 118.11 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1434,6 +1502,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 62.23) (xy 118.11 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a399ee29-9f53-4021-8495-2294a1c61ac4")
+	)
+	(wire
+		(pts
+			(xy 91.44 77.47) (xy 100.33 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1c0ec3-8e6b-438b-a2aa-a057943fa3e8")
+	)
+	(wire
+		(pts
 			(xy 160.02 66.04) (xy 162.56 66.04)
 		)
 		(stroke
@@ -1444,7 +1532,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 62.23) (xy 96.52 77.47)
+			(xy 91.44 62.23) (xy 91.44 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1474,7 +1562,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 149.86) (xy 158.75 149.86)
+			(xy 74.93 147.32) (xy 80.01 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1524,7 +1612,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 149.86) (xy 153.67 156.21)
+			(xy 74.93 147.32) (xy 74.93 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1534,17 +1622,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 77.47) (xy 105.41 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3a7e96f-33e0-47a7-8a5e-e0eca1b8c79e")
-	)
-	(wire
-		(pts
-			(xy 82.55 62.23) (xy 96.52 62.23)
+			(xy 82.55 62.23) (xy 91.44 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1561,6 +1639,16 @@
 			(type default)
 		)
 		(uuid "e9bca8a1-2d74-47ca-8b74-edc3e1038fff")
+	)
+	(wire
+		(pts
+			(xy 118.11 80.01) (xy 127 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc8b149-0841-4b16-ac2c-a2bc85803e8d")
 	)
 	(wire
 		(pts
@@ -1584,7 +1672,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 156.21) (xy 163.83 156.21)
+			(xy 74.93 153.67) (xy 85.09 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2249,7 +2337,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 85.09 68.5799 0)
 			(effects
 				(font
@@ -2267,7 +2355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
 			(at 82.55 67.31 0)
 			(effects
 				(font
@@ -2285,7 +2373,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C21190"
+		(property "LCSC Part" "C25804"
 			(at 82.55 67.31 0)
 			(effects
 				(font
@@ -2377,7 +2465,7 @@
 	)
 	(symbol
 		(lib_id "Robotont:LM393")
-		(at 166.37 147.32 0)
+		(at 87.63 144.78 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2385,7 +2473,7 @@
 		(dnp no)
 		(uuid "897414ad-a5f7-4d8d-b30b-b9d3f4485e78")
 		(property "Reference" "U23"
-			(at 170.18 143.51 0)
+			(at 91.44 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +2481,7 @@
 			)
 		)
 		(property "Value" "LM393"
-			(at 172.72 151.13 0)
+			(at 93.98 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,7 +2489,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 166.37 147.32 0)
+			(at 87.63 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +2498,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 166.37 147.32 0)
+			(at 87.63 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,7 +2507,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8"
-			(at 166.37 147.32 0)
+			(at 87.63 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,7 +2516,7 @@
 			)
 		)
 		(property "LCSC Part" "C7955"
-			(at 166.37 147.32 0)
+			(at 87.63 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,7 +2628,7 @@
 	)
 	(symbol
 		(lib_id "Robotont:LM393")
-		(at 166.37 147.32 0)
+		(at 87.63 144.78 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2548,7 +2636,7 @@
 		(dnp no)
 		(uuid "97d02553-9ec7-4b6f-b51a-23f60f6f5e1f")
 		(property "Reference" "U23"
-			(at 170.18 143.51 0)
+			(at 91.44 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2644,7 @@
 			)
 		)
 		(property "Value" "LM393"
-			(at 172.72 151.13 0)
+			(at 93.98 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2652,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 166.37 147.32 0)
+			(at 87.63 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +2661,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 166.37 147.32 0)
+			(at 87.63 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2582,7 +2670,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8"
-			(at 166.37 147.32 0)
+			(at 87.63 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,7 +2679,7 @@
 			)
 		)
 		(property "LCSC Part" "C7955"
-			(at 166.37 147.32 0)
+			(at 87.63 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2801,7 @@
 	)
 	(symbol
 		(lib_id "Robotont:LM393")
-		(at 113.03 80.01 0)
+		(at 109.22 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2722,7 +2810,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1075f42-8874-46ca-bca6-3f997dc141f3")
 		(property "Reference" "U23"
-			(at 113.03 69.85 0)
+			(at 109.22 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +2818,7 @@
 			)
 		)
 		(property "Value" "LM393"
-			(at 113.03 72.39 0)
+			(at 109.22 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +2826,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm"
-			(at 113.03 80.01 0)
+			(at 109.22 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +2835,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 113.03 80.01 0)
+			(at 109.22 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +2844,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8"
-			(at 113.03 80.01 0)
+			(at 109.22 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +2853,7 @@
 			)
 		)
 		(property "LCSC Part" "C7955"
-			(at 113.03 80.01 0)
+			(at 109.22 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,7 +2965,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 158.75 0)
+		(at 74.93 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2886,7 +2974,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8e5082c-e212-4d93-8626-a22e2c47609f")
 		(property "Reference" "#PWR060"
-			(at 153.67 165.1 0)
+			(at 74.93 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,7 +2983,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 163.195 0)
+			(at 74.93 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +2991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 158.75 0)
+			(at 74.93 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,7 +3000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 158.75 0)
+			(at 74.93 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,7 +3009,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 158.75 0)
+			(at 74.93 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,6 +3024,83 @@
 			(project "mainboard"
 				(path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/f58f67bd-49a4-4e87-bd8c-7116f7144f9c"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f59713f4-3aa8-4f26-a91d-14c349b8785f")
+		(property "Reference" "R92"
+			(at 109.22 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 109.22 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 64.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+			(at 109.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25803"
+			(at 109.22 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c790702-4701-453d-b0ee-b55ba928e89e")
+		)
+		(pin "2"
+			(uuid "d8dba11c-8bf8-441b-a225-24bf1d0893ef")
+		)
+		(instances
+			(project "mainboard"
+				(path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c/f58f67bd-49a4-4e87-bd8c-7116f7144f9c"
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -3091,7 +3256,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b831fde5-45ed-4d61-922e-308d570589ac")
-		(property "Sheetname" "High side rev block switch1"
+		(property "Sheetname" "High side rev block switch_bat"
 			(at 162.56 78.6634 0)
 			(effects
 				(font
@@ -3100,7 +3265,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "high_side_rev_blk_switch.kicad_sch"
+		(property "Sheetfile" "high_side_rev_blk_switch_bat.kicad_sch"
 			(at 162.56 86.3096 0)
 			(effects
 				(font
@@ -3172,7 +3337,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d7c67e86-ffc0-4a12-8ca1-11adaa8b234d")
-		(property "Sheetname" "High side rev block switch"
+		(property "Sheetname" "High side rev block switch_wall"
 			(at 162.56 63.4234 0)
 			(effects
 				(font
@@ -3181,7 +3346,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "high_side_rev_blk_switch.kicad_sch"
+		(property "Sheetfile" "high_side_rev_blk_switch_wall.kicad_sch"
 			(at 162.56 70.4346 0)
 			(effects
 				(font

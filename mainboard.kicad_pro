@@ -573,7 +573,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -657,7 +657,7 @@
           "show": false
         }
       ],
-      "filter_string": "D",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
@@ -757,11 +757,11 @@
     ],
     [
       "d7c67e86-ffc0-4a12-8ca1-11adaa8b234d",
-      "High side rev block switch"
+      "High side rev block switch_wall"
     ],
     [
       "b831fde5-45ed-4d61-922e-308d570589ac",
-      "High side rev block switch1"
+      "High side rev block switch_bat"
     ],
     [
       "90d932d0-2c7e-4845-b9b6-e3fdf2e1c4ae",
