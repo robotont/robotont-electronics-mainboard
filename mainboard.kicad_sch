@@ -17219,7 +17219,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C72043"
+		(property "LCSC Part" "C916074"
 			(at 31.75 134.62 0)
 			(effects
 				(font
@@ -21258,7 +21258,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C72043"
+		(property "LCSC Part" "C916074"
 			(at 231.14 165.1 0)
 			(effects
 				(font
@@ -22270,7 +22270,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C72043"
+		(property "LCSC Part" "C916074"
 			(at 231.14 173.99 0)
 			(effects
 				(font
@@ -24068,7 +24068,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C72043"
+		(property "LCSC Part" "C916074"
 			(at 231.14 156.21 0)
 			(effects
 				(font

@@ -1972,6 +1972,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "R_on = V_out / (K*f),\nwhere K=100 pF is constant.\nFor R_on = 510 kOhm, fs ~= 235 kHz."
+		(exclude_from_sim no)
+		(at 121.158 123.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b34dd4c-b4a0-4ec7-af6e-800fb3853d31")
+	)
 	(junction
 		(at 179.07 91.44)
 		(diameter 0)
@@ -3508,7 +3518,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CSD17505Q5A"
+		(property "Value" "CSD17577Q5A"
 			(at 182.88 85.0899 0)
 			(effects
 				(font
@@ -3528,7 +3538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/csd17505q5a"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/csd17577q5a"
 			(at 176.53 83.82 90)
 			(effects
 				(font
@@ -3538,7 +3548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100A Id, 30V Vds, NexFET N-Channel Power MOSFET, 3.5mOhm Ron, 10nC Qg(typ), SON8 5x6mm"
+		(property "Description" ""
 			(at 176.53 83.82 0)
 			(effects
 				(font
@@ -3547,7 +3557,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C553150"
+		(property "LCSC Part" "C475504"
 			(at 176.53 83.82 0)
 			(effects
 				(font
@@ -3755,7 +3765,7 @@
 				)
 			)
 		)
-		(property "Value" "604k"
+		(property "Value" "510k"
 			(at 128.27 96.52 90)
 			(effects
 				(font
@@ -3763,7 +3773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 128.27 95.758 90)
 			(effects
 				(font
@@ -3772,7 +3782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2007151311_YAGEO-RC0805FR-07604KL_C483204.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C23192.pdf"
 			(at 128.27 93.98 0)
 			(effects
 				(font
@@ -3790,7 +3800,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C483204"
+		(property "LCSC Part" "C23192"
 			(at 128.27 93.98 90)
 			(effects
 				(font

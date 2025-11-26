@@ -985,7 +985,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002-7-F"
+		(property "Value" "AO3400A"
 			(at 145.415 95.2499 0)
 			(effects
 				(font
@@ -1005,7 +1005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C20917.pdf"
 			(at 139.7 93.98 0)
 			(effects
 				(font
@@ -1024,7 +1024,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C53550"
+		(property "LCSC Part" "C20917"
 			(at 139.7 93.98 0)
 			(effects
 				(font

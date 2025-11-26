@@ -2883,12 +2883,6 @@
 		(uuid "b7015d08-723b-4f80-902f-0275652185e5")
 	)
 	(junction
-		(at 95.25 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4efb13d-9d20-4048-9864-276db32f45b0")
-	)
-	(junction
 		(at 38.1 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3267,16 +3261,6 @@
 			(type default)
 		)
 		(uuid "2b5a34b9-b367-4fd1-8d1c-3f3da5e29dfa")
-	)
-	(wire
-		(pts
-			(xy 95.25 133.35) (xy 95.25 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c01a82d-1d2c-48c9-936d-9ad638466658")
 	)
 	(wire
 		(pts
@@ -4700,16 +4684,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 143.51) (xy 95.25 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb46e85c-9750-4b74-8167-4797ec62cb81")
-	)
-	(wire
-		(pts
 			(xy 132.08 85.09) (xy 132.08 86.36)
 		)
 		(stroke
@@ -5097,16 +5071,6 @@
 			(justify left bottom)
 		)
 		(uuid "734cff1f-ae26-42c9-a81f-598747338646")
-	)
-	(label "+3.3V"
-		(at 95.25 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7531f396-c7fb-476e-8c75-d7064d80b969")
 	)
 	(label "DBG_LED_R"
 		(at 191.77 64.77 180)
@@ -6357,82 +6321,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 95.25 139.7 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35259471-629b-403f-96f8-2ae0192ffcab")
-		(property "Reference" "R81"
-			(at 91.44 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4k7"
-			(at 91.44 140.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 97.028 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf"
-			(at 95.25 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C23162"
-			(at 95.25 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5456a38c-d2a8-417e-8ec0-627ee4458c6d")
-		)
-		(pin "2"
-			(uuid "2110779b-041d-4cfd-983c-3a2697127f8e")
-		)
-		(instances
-			(project "mainboard"
-				(path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/4bfc1dae-8815-428b-9f5b-0a18ce8bea6c"
-					(reference "R81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 264.16 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7123,7 +7011,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002-7-F"
+		(property "Value" "AO3400A"
 			(at 266.065 78.7399 0)
 			(effects
 				(font
@@ -7143,7 +7031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C20917.pdf"
 			(at 260.35 77.47 0)
 			(effects
 				(font
@@ -7162,7 +7050,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C53550"
+		(property "LCSC Part" "C20917"
 			(at 260.35 77.47 0)
 			(effects
 				(font
@@ -7317,7 +7205,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C72043"
+		(property "LCSC Part" "C916074"
 			(at 119.38 41.91 0)
 			(effects
 				(font
@@ -9529,6 +9417,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C111451"
+			(at 146.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70d2fcf6-32ef-4914-8827-94a7f0b6384c")
 		)
@@ -9969,7 +9866,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C72043"
+		(property "LCSC Part" "C916074"
 			(at 214.63 69.85 0)
 			(effects
 				(font
