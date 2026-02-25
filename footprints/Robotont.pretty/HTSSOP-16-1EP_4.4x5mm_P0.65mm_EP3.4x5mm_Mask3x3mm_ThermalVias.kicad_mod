@@ -1,7 +1,7 @@
 (footprint "HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3x3mm_ThermalVias"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "16-Lead Plastic HTSSOP (4.4x5x1.2mm); Thermal pad with vias; (http://www.ti.com/lit/ds/symlink/drv8800.pdf)")
 	(tags "SSOP 0.65")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "88cb05b5-e83b-4d18-936c-b313fdc3d112")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -93,7 +83,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "6fcf6e60-3183-42ac-a853-134f6fc11dbd")
 	)
@@ -279,97 +269,97 @@
 	(pad "1" smd rect
 		(at -2.775 -2.275)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "383883bf-92a4-4997-9f96-2abfe2e0dd0f")
 	)
 	(pad "2" smd rect
 		(at -2.775 -1.625)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9eb9fe10-cb27-4405-ad3e-50ae4ef78fd5")
 	)
 	(pad "3" smd rect
 		(at -2.775 -0.975)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6de41f7e-3dc3-45dd-8930-449ec857d4ba")
 	)
 	(pad "4" smd rect
 		(at -2.775 -0.325)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1a49e690-6a26-4c0e-8c31-4360ac2c546a")
 	)
 	(pad "5" smd rect
 		(at -2.775 0.325)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e832d1a9-c85b-487f-be5d-eef4f5161699")
 	)
 	(pad "6" smd rect
 		(at -2.775 0.975)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "58b90a49-7d63-49bc-9e30-d9e23f88496c")
 	)
 	(pad "7" smd rect
 		(at -2.775 1.625)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "29d6aa0c-92af-4f04-a3f4-be2e30814749")
 	)
 	(pad "8" smd rect
 		(at -2.775 2.275)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "246c442f-06dd-4ba1-98b7-79fe6848f877")
 	)
 	(pad "9" smd rect
 		(at 2.775 2.275)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1ce918fc-bbe3-49ae-8d60-735eb81c40b6")
 	)
 	(pad "10" smd rect
 		(at 2.775 1.625)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ca08bfe3-1e0c-4015-af04-29d8eaa07783")
 	)
 	(pad "11" smd rect
 		(at 2.775 0.975)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f63b653f-6c35-40f2-8088-7608c68ec816")
 	)
 	(pad "12" smd rect
 		(at 2.775 0.325)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a521426c-af53-4b61-9c9d-139875994852")
 	)
 	(pad "13" smd rect
 		(at 2.775 -0.325)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "69b91544-e2b7-461d-84fe-cebee9192734")
 	)
 	(pad "14" smd rect
 		(at 2.775 -0.975)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4b8984cb-f703-4219-a916-3e63863e29f8")
 	)
 	(pad "15" smd rect
 		(at 2.775 -1.625)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "40fd6460-2249-422a-9477-d05d53d4b6e6")
 	)
 	(pad "16" smd rect
 		(at 2.775 -2.275)
 		(size 1.05 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9dae5e7c-e600-48c1-8506-74caa96a2d99")
 	)
 	(pad "17" thru_hole circle
@@ -520,7 +510,8 @@
 		(remove_unused_layers no)
 		(uuid "ea4a4e66-8cdf-4141-bf2e-dbe491ff7c57")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16-1EP_4.4x5mm_Pitch0.65mm_EP3.4x5mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16-1EP_4.4x5mm_P0.65mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
