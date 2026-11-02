@@ -20267,7 +20267,7 @@
 				)
 			)
 		)
-		(property "Value" "SDT5A60SA-13"
+		(property "Value" "SBR10U45SP5-13"
 			(at 63.8175 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20277,7 +20277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Robotont:D_PowerDI-5"
 			(at 63.5 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -20288,7 +20288,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/datasheet/download/SDT5A60SA.pdf"
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/SBR10U45SP5.pdf"
 			(at 63.5 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -20310,7 +20310,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C3024223"
+		(property "LCSC Part" "C94853"
 			(at 63.5 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -24495,7 +24495,7 @@
 				)
 			)
 		)
-		(property "Value" "SDT5A60SA-13"
+		(property "Value" "SBR10U45SP5-13"
 			(at 63.8175 271.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24505,7 +24505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Robotont:D_PowerDI-5"
 			(at 63.5 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -24516,7 +24516,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/datasheet/download/SDT5A60SA.pdf"
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/SBR10U45SP5.pdf"
 			(at 63.5 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -24538,7 +24538,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C3024223"
+		(property "LCSC Part" "C94853"
 			(at 63.5 275.59 0)
 			(hide yes)
 			(show_name no)

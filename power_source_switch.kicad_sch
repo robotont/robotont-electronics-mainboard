@@ -2437,7 +2437,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "SDT5A60SA-13"
 			(at 71.12 114.935 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2458,7 +2458,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Diodes-Incorporated-B240A-13-F_C92506.pdf"
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/SDT5A60SA.pdf"
 			(at 71.12 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2469,7 +2469,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky diode"
 			(at 71.12 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2480,7 +2480,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C92506"
+		(property "LCSC Part" "C3024223"
 			(at 71.12 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2998,7 +2998,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "SDT5A60SA-13"
 			(at 71.12 128.905 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3019,7 +3019,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Diodes-Incorporated-B240A-13-F_C92506.pdf"
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/SDT5A60SA.pdf"
 			(at 71.12 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3030,7 +3030,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky diode"
 			(at 71.12 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3041,7 +3041,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C92506"
+		(property "LCSC Part" "C3024223"
 			(at 71.12 132.08 0)
 			(hide yes)
 			(show_name no)
