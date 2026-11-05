@@ -8992,7 +8992,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PMEG6030EVPX"
+		(property "Value" "SDT5A60SA-13"
 			(at 161.29 39.6874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9003,7 +9003,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Robotont:D_SOD-128"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9014,7 +9014,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2201242200_Nexperia-PMEG6030EVPX_C489223.pdf"
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/SDT5A60SA.pdf"
 			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9036,7 +9036,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C489223"
+		(property "LCSC Part" "C3024223"
 			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)

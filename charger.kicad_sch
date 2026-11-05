@@ -1811,12 +1811,6 @@
 		(uuid "214b5db1-28a0-4ca9-9167-cd09ea2adf73")
 	)
 	(junction
-		(at 149.86 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "220d12fe-8ddb-4f85-b0fd-8c78fa439c12")
-	)
-	(junction
 		(at 252.73 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1917,12 +1911,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68a49809-ec57-4588-a920-60cc2c2de7e9")
-	)
-	(junction
-		(at 149.86 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c4d9f58-392d-4cda-b3e9-27f413ed68d9")
 	)
 	(junction
 		(at 240.03 58.42)
@@ -2451,16 +2439,6 @@
 			(type default)
 		)
 		(uuid "53242860-e29f-402a-ac65-f054b7001814")
-	)
-	(wire
-		(pts
-			(xy 138.43 82.55) (xy 149.86 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53999c14-b474-42bb-90aa-af157c72e587")
 	)
 	(wire
 		(pts
@@ -3041,16 +3019,6 @@
 			(type default)
 		)
 		(uuid "ed76a9a5-ee73-4ac8-8c42-1c10ad04f3a0")
-	)
-	(wire
-		(pts
-			(xy 138.43 90.17) (xy 149.86 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ede45a52-53f2-4e66-a1fb-5db38ab0e7ce")
 	)
 	(wire
 		(pts
@@ -3829,7 +3797,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4687,7 +4655,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5182,110 +5150,11 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 138.43 86.36 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "58590d12-56df-4e99-a553-0bc0c6fed889")
-		(property "Reference" "C171"
-			(at 142.24 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 142.24 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 137.4648 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA4J1X7R1E475K125AC"
-			(at 138.43 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C76713"
-			(at 138.43 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e707f74-5276-4bfc-a454-4916efbc63cd")
-		)
-		(pin "2"
-			(uuid "809d8096-819b-4afb-a6ab-f58cf530d40a")
-		)
-		(instances
-			(project "charger"
-				(path "/0f8e925e-d0fc-4446-9680-7f6c83512a9c"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-			(project "mainboard"
-				(path "/ebe87c89-9c25-4dbf-a80d-e2428f6eb240/e36614a1-2c5b-4bc7-8831-a624839e3ce4"
-					(reference "C171")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 210.82 43.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8338,7 +8207,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
